@@ -1,0 +1,9 @@
+C:\Temp\MyDrag\MyDrag\bin\Debug\MyDrag.exe.config
+C:\Temp\MyDrag\MyDrag\bin\Debug\MyDrag.exe
+C:\Temp\MyDrag\MyDrag\bin\Debug\MyDrag.pdb
+C:\Temp\MyDrag\MyDrag\obj\Debug\MyDrag.csprojResolveAssemblyReference.cache
+C:\Temp\MyDrag\MyDrag\obj\Debug\MyDrag.Form1.resources
+C:\Temp\MyDrag\MyDrag\obj\Debug\MyDrag.Properties.Resources.resources
+C:\Temp\MyDrag\MyDrag\obj\Debug\MyDrag.csproj.GenerateResource.Cache
+C:\Temp\MyDrag\MyDrag\obj\Debug\MyDrag.exe
+C:\Temp\MyDrag\MyDrag\obj\Debug\MyDrag.pdb

@@ -1,0 +1,7 @@
+bin\Debug\DragConcepts.exe
+bin\Debug\DragConcepts.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DragConcepts.Form1.resources
+obj\Debug\DragConcepts.csproj.GenerateResource.Cache
+obj\Debug\DragConcepts.exe
+obj\Debug\DragConcepts.pdb

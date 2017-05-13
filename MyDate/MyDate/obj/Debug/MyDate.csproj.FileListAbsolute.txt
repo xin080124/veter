@@ -1,0 +1,9 @@
+C:\Temp\MyDate\MyDate\bin\Debug\MyDate.exe.config
+C:\Temp\MyDate\MyDate\bin\Debug\MyDate.exe
+C:\Temp\MyDate\MyDate\bin\Debug\MyDate.pdb
+C:\Temp\MyDate\MyDate\obj\Debug\MyDate.csprojResolveAssemblyReference.cache
+C:\Temp\MyDate\MyDate\obj\Debug\MyDate.Form1.resources
+C:\Temp\MyDate\MyDate\obj\Debug\MyDate.Properties.Resources.resources
+C:\Temp\MyDate\MyDate\obj\Debug\MyDate.csproj.GenerateResource.Cache
+C:\Temp\MyDate\MyDate\obj\Debug\MyDate.exe
+C:\Temp\MyDate\MyDate\obj\Debug\MyDate.pdb

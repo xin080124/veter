@@ -1,0 +1,7 @@
+obj\Debug\DateTimeExamples1.exe
+obj\Debug\DateTimeExamples1.pdb
+bin\Debug\DateTimeExamples1.exe
+bin\Debug\DateTimeExamples1.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DateTimeExamples1.Form1.resources
+obj\Debug\DateTimeExamples1.csproj.GenerateResource.Cache

@@ -1,0 +1,13 @@
+C:\TEMP\DragConcepts\obj\Debug\DragConcepts.exe
+C:\TEMP\DragConcepts\obj\Debug\DragConcepts.pdb
+C:\TEMP\DragConcepts\bin\Debug\DragConcepts.exe
+C:\TEMP\DragConcepts\bin\Debug\DragConcepts.pdb
+C:\TEMP\DragConcepts\obj\Debug\DragConcepts.Form1.resources
+C:\TEMP\DragConcepts\obj\Debug\DragConcepts.csproj.GenerateResource.Cache
+S:\6421_GUI Programming\Week_08\Projects\DragConcepts\obj\Debug\DragConcepts.exe
+S:\6421_GUI Programming\Week_08\Projects\DragConcepts\obj\Debug\DragConcepts.pdb
+S:\6421_GUI Programming\Week_08\Projects\DragConcepts\bin\Debug\DragConcepts.exe
+S:\6421_GUI Programming\Week_08\Projects\DragConcepts\bin\Debug\DragConcepts.pdb
+S:\6421_GUI Programming\Week_08\Projects\DragConcepts\obj\Debug\DragConcepts.Form1.resources
+S:\6421_GUI Programming\Week_08\Projects\DragConcepts\obj\Debug\DragConcepts.csproj.GenerateResource.Cache
+C:\Temp\DragConcepts\obj\Debug\DragConcepts.csprojResolveAssemblyReference.cache

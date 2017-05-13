@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DragConcepts">
+</Property><Property Name="Solution File" Value="C:\TEMP\DragConcepts\DragConcepts.sln">
+</Property><Property Name="Date" Value="Monday, 15 March 2010">
+</Property><Property Name="Time" Value="18:34 p.m.">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="DragConcepts" Source="DragConcepts.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DragConcepts" Source="DragConcepts.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DragConcepts.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DragConcepts.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DragConcepts" Source="DragConcepts.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

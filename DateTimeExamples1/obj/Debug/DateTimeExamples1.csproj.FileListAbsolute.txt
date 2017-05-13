@@ -1,0 +1,27 @@
+C:\TEMP\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.exe
+C:\TEMP\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.pdb
+C:\TEMP\Projects\DateTimeExamples1\bin\Debug\DateTimeExamples1.exe
+C:\TEMP\Projects\DateTimeExamples1\bin\Debug\DateTimeExamples1.pdb
+C:\TEMP\Projects\DateTimeExamples1\obj\Debug\ResolveAssemblyReference.cache
+C:\TEMP\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.Form1.resources
+C:\TEMP\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.csproj.GenerateResource.Cache
+H:\Business\Disc\tutors\6421 GUI Programming\2013 - Semester 1\Class Material\Week_03\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.exe
+H:\Business\Disc\tutors\6421 GUI Programming\2013 - Semester 1\Class Material\Week_03\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.pdb
+H:\Business\Disc\tutors\6421 GUI Programming\2013 - Semester 1\Class Material\Week_03\Projects\DateTimeExamples1\bin\Debug\DateTimeExamples1.exe
+H:\Business\Disc\tutors\6421 GUI Programming\2013 - Semester 1\Class Material\Week_03\Projects\DateTimeExamples1\bin\Debug\DateTimeExamples1.pdb
+H:\Business\Disc\tutors\6421 GUI Programming\2013 - Semester 1\Class Material\Week_03\Projects\DateTimeExamples1\obj\Debug\ResolveAssemblyReference.cache
+H:\Business\Disc\tutors\6421 GUI Programming\2013 - Semester 1\Class Material\Week_03\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.Form1.resources
+H:\Business\Disc\tutors\6421 GUI Programming\2013 - Semester 1\Class Material\Week_03\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.csproj.GenerateResource.Cache
+S:\6421_GUI Programming\Week_08\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.exe
+S:\6421_GUI Programming\Week_08\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.pdb
+S:\6421_GUI Programming\Week_08\Projects\DateTimeExamples1\bin\Debug\DateTimeExamples1.exe
+S:\6421_GUI Programming\Week_08\Projects\DateTimeExamples1\bin\Debug\DateTimeExamples1.pdb
+S:\6421_GUI Programming\Week_08\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.Form1.resources
+S:\6421_GUI Programming\Week_08\Projects\DateTimeExamples1\obj\Debug\DateTimeExamples1.csproj.GenerateResource.Cache
+C:\Temp\DateTimeExamples1\obj\Debug\DateTimeExamples1.exe
+C:\Temp\DateTimeExamples1\obj\Debug\DateTimeExamples1.pdb
+C:\Temp\DateTimeExamples1\bin\Debug\DateTimeExamples1.exe
+C:\Temp\DateTimeExamples1\bin\Debug\DateTimeExamples1.pdb
+C:\Temp\DateTimeExamples1\obj\Debug\DateTimeExamples1.csprojResolveAssemblyReference.cache
+C:\Temp\DateTimeExamples1\obj\Debug\DateTimeExamples1.Form1.resources
+C:\Temp\DateTimeExamples1\obj\Debug\DateTimeExamples1.csproj.GenerateResource.Cache
