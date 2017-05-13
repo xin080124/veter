@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPlay", "EventPlay.csproj", "{2F4F80A7-457D-488B-B0FB-81A06DD145A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2F4F80A7-457D-488B-B0FB-81A06DD145A4}.Debug.ActiveCfg = Debug|.NET
+		{2F4F80A7-457D-488B-B0FB-81A06DD145A4}.Debug.Build.0 = Debug|.NET
+		{2F4F80A7-457D-488B-B0FB-81A06DD145A4}.Release.ActiveCfg = Release|.NET
+		{2F4F80A7-457D-488B-B0FB-81A06DD145A4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="EventPlay">
+</Property><Property Name="Solution File" Value="C:\TEMP\Projects\EventPlay2\EventPlay.sln">
+</Property><Property Name="Date" Value="Monday, 8 March 2010">
+</Property><Property Name="Time" Value="18:02 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="EventPlay" Source="EventPlay.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EventPlay" Source="EventPlay.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="EventPlay.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="EventPlay.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EventPlay" Source="EventPlay.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

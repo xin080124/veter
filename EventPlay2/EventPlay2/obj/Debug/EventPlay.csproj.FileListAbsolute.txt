@@ -1,0 +1,17 @@
+C:\TEMP\Projects\EventPlay2\obj\Debug\EventPlay.exe
+C:\TEMP\Projects\EventPlay2\obj\Debug\EventPlay.pdb
+C:\TEMP\Projects\EventPlay2\bin\Debug\EventPlay.exe
+C:\TEMP\Projects\EventPlay2\bin\Debug\EventPlay.pdb
+C:\TEMP\Projects\EventPlay2\obj\Debug\ResolveAssemblyReference.cache
+C:\TEMP\Projects\EventPlay2\obj\Debug\EventPlay2.Form1.resources
+C:\TEMP\Projects\EventPlay2\obj\Debug\EventPlay2.NumberBox.resources
+C:\TEMP\Projects\EventPlay2\obj\Debug\EventPlay.csproj.GenerateResource.Cache
+C:\Temp\EventPlay2\obj\Debug\EventPlay.exe
+C:\Temp\EventPlay2\obj\Debug\EventPlay.pdb
+C:\Temp\EventPlay2\bin\Debug\EventPlay.exe
+C:\Temp\EventPlay2\bin\Debug\EventPlay.pdb
+C:\Temp\EventPlay2\obj\Debug\EventPlay2.Form1.resources
+C:\Temp\EventPlay2\obj\Debug\EventPlay2.NumberBox.resources
+C:\Temp\EventPlay2\obj\Debug\EventPlay.csproj.GenerateResource.Cache
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_09\Projects\EventPlay2\obj\Debug\EventPlay.exe
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_09\Projects\EventPlay2\obj\Debug\EventPlay.pdb

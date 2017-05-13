@@ -1,0 +1,12 @@
+obj\Debug\CountDown.exe
+obj\Debug\CountDown.pdb
+bin\Release\CountDown.exe
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\CountDown.Form1.resources
+obj\Release\CountDown.csproj.GenerateResource.Cache
+obj\Release\CountDown.exe
+bin\Debug\CountDown.exe
+bin\Debug\CountDown.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CountDown.Form1.resources
+obj\Debug\CountDown.csproj.GenerateResource.Cache

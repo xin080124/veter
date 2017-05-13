@@ -1,0 +1,8 @@
+obj\Debug\EventPlay.exe
+obj\Debug\EventPlay.pdb
+bin\Debug\EventPlay.exe
+bin\Debug\EventPlay.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsApplication1.Form1.resources
+obj\Debug\WindowsApplication1.NumberBox.resources
+obj\Debug\EventPlay.csproj.GenerateResource.Cache
