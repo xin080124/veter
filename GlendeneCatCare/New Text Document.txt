@@ -1,0 +1,44 @@
+use the moodle to complete assignment 1
+
+veterinarianForm
+
+lblveterinarianNo
+Veterinarian ID
+
+
+lblveterinarianID
+
+
+lblLastName
+Last Name
+txtLastName
+
+lblFirstName
+First Name
+txtFirstName
+
+lblRate
+Rate
+txtRate
+
+
+
+btnPrevious
+Previous
+
+btnNext
+Next
+
+btnAddVeterinarian
+Add Veterinarian
+
+btnUPdateVeterinarian
+UPdate Veterinarian
+
+btnDeleteVeterinarian
+Delete Veterinarian
+
+btnReturn
+Return
+
+
