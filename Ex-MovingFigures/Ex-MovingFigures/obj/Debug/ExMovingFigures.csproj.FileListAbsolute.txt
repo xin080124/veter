@@ -1,0 +1,15 @@
+C:\TEMP\Projects\Ex-MovingFigures\obj\Debug\ExMovingFigures.exe
+C:\TEMP\Projects\Ex-MovingFigures\obj\Debug\ExMovingFigures.pdb
+C:\TEMP\Projects\Ex-MovingFigures\bin\Debug\ExMovingFigures.exe
+C:\TEMP\Projects\Ex-MovingFigures\bin\Debug\ExMovingFigures.pdb
+C:\TEMP\Projects\Ex-MovingFigures\obj\Debug\ResolveAssemblyReference.cache
+C:\TEMP\Projects\Ex-MovingFigures\obj\Debug\TimerPLay.Form1.resources
+C:\TEMP\Projects\Ex-MovingFigures\obj\Debug\ExMovingFigures.csproj.GenerateResource.Cache
+C:\Temp\Ex-MovingFigures\obj\Debug\ExMovingFigures.exe
+C:\Temp\Ex-MovingFigures\obj\Debug\ExMovingFigures.pdb
+C:\Temp\Ex-MovingFigures\bin\Debug\ExMovingFigures.exe
+C:\Temp\Ex-MovingFigures\bin\Debug\ExMovingFigures.pdb
+C:\Temp\Ex-MovingFigures\obj\Debug\TimerPLay.Form1.resources
+C:\Temp\Ex-MovingFigures\obj\Debug\ExMovingFigures.csproj.GenerateResource.Cache
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_09\Projects\Ex-MovingFigures\obj\Debug\ExMovingFigures.exe
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_09\Projects\Ex-MovingFigures\obj\Debug\ExMovingFigures.pdb

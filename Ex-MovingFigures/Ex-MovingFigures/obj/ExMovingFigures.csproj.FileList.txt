@@ -1,0 +1,2 @@
+obj\Debug\ExMovingFigures.exe
+obj\Debug\ExMovingFigures.pdb
