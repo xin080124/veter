@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSLooking" targetNamespace="http://tempuri.org/DSLooking.xsd" xmlns:mstns="http://tempuri.org/DSLooking.xsd" xmlns="http://tempuri.org/DSLooking.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSLooking" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSLooking" msprop:Generator_UserDSName="DSLooking">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="APPLICATION" msprop:Generator_TableClassName="APPLICATIONDataTable" msprop:Generator_TableVarName="tableAPPLICATION" msprop:Generator_TablePropName="APPLICATION" msprop:Generator_RowDeletingName="APPLICATIONRowDeleting" msprop:Generator_RowChangingName="APPLICATIONRowChanging" msprop:Generator_RowEvHandlerName="APPLICATIONRowChangeEventHandler" msprop:Generator_RowDeletedName="APPLICATIONRowDeleted" msprop:Generator_UserTableName="APPLICATION" msprop:Generator_RowChangedName="APPLICATIONRowChanged" msprop:Generator_RowEvArgName="APPLICATIONRowChangeEvent" msprop:Generator_RowClassName="APPLICATIONRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VacancyID" msprop:Generator_ColumnVarNameInTable="columnVacancyID" msprop:Generator_ColumnPropNameInRow="VacancyID" msprop:Generator_ColumnPropNameInTable="VacancyIDColumn" msprop:Generator_UserColumnName="VacancyID" type="xs:int" />
+              <xs:element name="CandidateID" msprop:Generator_ColumnVarNameInTable="columnCandidateID" msprop:Generator_ColumnPropNameInRow="CandidateID" msprop:Generator_ColumnPropNameInTable="CandidateIDColumn" msprop:Generator_UserColumnName="CandidateID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CANDIDATE" msprop:Generator_TableClassName="CANDIDATEDataTable" msprop:Generator_TableVarName="tableCANDIDATE" msprop:Generator_TablePropName="CANDIDATE" msprop:Generator_RowDeletingName="CANDIDATERowDeleting" msprop:Generator_RowChangingName="CANDIDATERowChanging" msprop:Generator_RowEvHandlerName="CANDIDATERowChangeEventHandler" msprop:Generator_RowDeletedName="CANDIDATERowDeleted" msprop:Generator_UserTableName="CANDIDATE" msprop:Generator_RowChangedName="CANDIDATERowChanged" msprop:Generator_RowEvArgName="CANDIDATERowChangeEvent" msprop:Generator_RowClassName="CANDIDATERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CandidateID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnCandidateID" msprop:Generator_ColumnPropNameInRow="CandidateID" msprop:Generator_ColumnPropNameInTable="CandidateIDColumn" msprop:Generator_UserColumnName="CandidateID" type="xs:int" />
+              <xs:element name="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_UserColumnName="LastName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_UserColumnName="FirstName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StreetAddress" msprop:Generator_ColumnVarNameInTable="columnStreetAddress" msprop:Generator_ColumnPropNameInRow="StreetAddress" msprop:Generator_ColumnPropNameInTable="StreetAddressColumn" msprop:Generator_UserColumnName="StreetAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Suburb" msprop:Generator_ColumnVarNameInTable="columnSuburb" msprop:Generator_ColumnPropNameInRow="Suburb" msprop:Generator_ColumnPropNameInTable="SuburbColumn" msprop:Generator_UserColumnName="Suburb" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PhoneNumber" msprop:Generator_ColumnVarNameInTable="columnPhoneNumber" msprop:Generator_ColumnPropNameInRow="PhoneNumber" msprop:Generator_ColumnPropNameInTable="PhoneNumberColumn" msprop:Generator_UserColumnName="PhoneNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CANDIDATESKILL" msprop:Generator_TableClassName="CANDIDATESKILLDataTable" msprop:Generator_TableVarName="tableCANDIDATESKILL" msprop:Generator_TablePropName="CANDIDATESKILL" msprop:Generator_RowDeletingName="CANDIDATESKILLRowDeleting" msprop:Generator_RowChangingName="CANDIDATESKILLRowChanging" msprop:Generator_RowEvHandlerName="CANDIDATESKILLRowChangeEventHandler" msprop:Generator_RowDeletedName="CANDIDATESKILLRowDeleted" msprop:Generator_UserTableName="CANDIDATESKILL" msprop:Generator_RowChangedName="CANDIDATESKILLRowChanged" msprop:Generator_RowEvArgName="CANDIDATESKILLRowChangeEvent" msprop:Generator_RowClassName="CANDIDATESKILLRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CandidateID" msprop:Generator_ColumnVarNameInTable="columnCandidateID" msprop:Generator_ColumnPropNameInRow="CandidateID" msprop:Generator_ColumnPropNameInTable="CandidateIDColumn" msprop:Generator_UserColumnName="CandidateID" type="xs:int" />
+              <xs:element name="SkillID" msprop:Generator_ColumnVarNameInTable="columnSkillID" msprop:Generator_ColumnPropNameInRow="SkillID" msprop:Generator_ColumnPropNameInTable="SkillIDColumn" msprop:Generator_UserColumnName="SkillID" type="xs:int" />
+              <xs:element name="Years" msprop:Generator_ColumnVarNameInTable="columnYears" msprop:Generator_ColumnPropNameInRow="Years" msprop:Generator_ColumnPropNameInTable="YearsColumn" msprop:Generator_UserColumnName="Years" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EMPLOYER" msprop:Generator_TableClassName="EMPLOYERDataTable" msprop:Generator_TableVarName="tableEMPLOYER" msprop:Generator_TablePropName="EMPLOYER" msprop:Generator_RowDeletingName="EMPLOYERRowDeleting" msprop:Generator_RowChangingName="EMPLOYERRowChanging" msprop:Generator_RowEvHandlerName="EMPLOYERRowChangeEventHandler" msprop:Generator_RowDeletedName="EMPLOYERRowDeleted" msprop:Generator_UserTableName="EMPLOYER" msprop:Generator_RowChangedName="EMPLOYERRowChanged" msprop:Generator_RowEvArgName="EMPLOYERRowChangeEvent" msprop:Generator_RowClassName="EMPLOYERRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployerID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnEmployerID" msprop:Generator_ColumnPropNameInRow="EmployerID" msprop:Generator_ColumnPropNameInTable="EmployerIDColumn" msprop:Generator_UserColumnName="EmployerID" type="xs:int" />
+              <xs:element name="EmployerName" msprop:Generator_ColumnVarNameInTable="columnEmployerName" msprop:Generator_ColumnPropNameInRow="EmployerName" msprop:Generator_ColumnPropNameInTable="EmployerNameColumn" msprop:Generator_UserColumnName="EmployerName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Street_x0020_Address" msprop:Generator_ColumnVarNameInTable="columnStreet_Address" msprop:Generator_ColumnPropNameInRow="Street_Address" msprop:Generator_ColumnPropNameInTable="Street_AddressColumn" msprop:Generator_UserColumnName="Street Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Suburb" msprop:Generator_ColumnVarNameInTable="columnSuburb" msprop:Generator_ColumnPropNameInRow="Suburb" msprop:Generator_ColumnPropNameInTable="SuburbColumn" msprop:Generator_UserColumnName="Suburb" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PhoneNumber" msprop:Generator_ColumnVarNameInTable="columnPhoneNumber" msprop:Generator_ColumnPropNameInRow="PhoneNumber" msprop:Generator_ColumnPropNameInTable="PhoneNumberColumn" msprop:Generator_UserColumnName="PhoneNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SKILL" msprop:Generator_TableClassName="SKILLDataTable" msprop:Generator_TableVarName="tableSKILL" msprop:Generator_TablePropName="SKILL" msprop:Generator_RowDeletingName="SKILLRowDeleting" msprop:Generator_RowChangingName="SKILLRowChanging" msprop:Generator_RowEvHandlerName="SKILLRowChangeEventHandler" msprop:Generator_RowDeletedName="SKILLRowDeleted" msprop:Generator_UserTableName="SKILL" msprop:Generator_RowChangedName="SKILLRowChanged" msprop:Generator_RowEvArgName="SKILLRowChangeEvent" msprop:Generator_RowClassName="SKILLRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SkillID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnSkillID" msprop:Generator_ColumnPropNameInRow="SkillID" msprop:Generator_ColumnPropNameInTable="SkillIDColumn" msprop:Generator_UserColumnName="SkillID" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VACANCY" msprop:Generator_TableClassName="VACANCYDataTable" msprop:Generator_TableVarName="tableVACANCY" msprop:Generator_TablePropName="VACANCY" msprop:Generator_RowDeletingName="VACANCYRowDeleting" msprop:Generator_RowChangingName="VACANCYRowChanging" msprop:Generator_RowEvHandlerName="VACANCYRowChangeEventHandler" msprop:Generator_RowDeletedName="VACANCYRowDeleted" msprop:Generator_UserTableName="VACANCY" msprop:Generator_RowChangedName="VACANCYRowChanged" msprop:Generator_RowEvArgName="VACANCYRowChangeEvent" msprop:Generator_RowClassName="VACANCYRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VacancyID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnVacancyID" msprop:Generator_ColumnPropNameInRow="VacancyID" msprop:Generator_ColumnPropNameInTable="VacancyIDColumn" msprop:Generator_UserColumnName="VacancyID" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Salary" msprop:Generator_ColumnVarNameInTable="columnSalary" msprop:Generator_ColumnPropNameInRow="Salary" msprop:Generator_ColumnPropNameInTable="SalaryColumn" msprop:Generator_UserColumnName="Salary" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EmployerID" msprop:Generator_ColumnVarNameInTable="columnEmployerID" msprop:Generator_ColumnPropNameInRow="EmployerID" msprop:Generator_ColumnPropNameInTable="EmployerIDColumn" msprop:Generator_UserColumnName="EmployerID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VACANCYSKILL" msprop:Generator_TableClassName="VACANCYSKILLDataTable" msprop:Generator_TableVarName="tableVACANCYSKILL" msprop:Generator_TablePropName="VACANCYSKILL" msprop:Generator_RowDeletingName="VACANCYSKILLRowDeleting" msprop:Generator_RowChangingName="VACANCYSKILLRowChanging" msprop:Generator_RowEvHandlerName="VACANCYSKILLRowChangeEventHandler" msprop:Generator_RowDeletedName="VACANCYSKILLRowDeleted" msprop:Generator_UserTableName="VACANCYSKILL" msprop:Generator_RowChangedName="VACANCYSKILLRowChanged" msprop:Generator_RowEvArgName="VACANCYSKILLRowChangeEvent" msprop:Generator_RowClassName="VACANCYSKILLRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VacancyID" msprop:Generator_ColumnVarNameInTable="columnVacancyID" msprop:Generator_ColumnPropNameInRow="VacancyID" msprop:Generator_ColumnPropNameInTable="VacancyIDColumn" msprop:Generator_UserColumnName="VacancyID" type="xs:int" />
+              <xs:element name="SkillID" msprop:Generator_ColumnVarNameInTable="columnSkillID" msprop:Generator_ColumnPropNameInRow="SkillID" msprop:Generator_ColumnPropNameInTable="SkillIDColumn" msprop:Generator_UserColumnName="SkillID" type="xs:int" />
+              <xs:element name="Years" msprop:Generator_ColumnVarNameInTable="columnYears" msprop:Generator_ColumnPropNameInRow="Years" msprop:Generator_ColumnPropNameInTable="YearsColumn" msprop:Generator_UserColumnName="Years" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:APPLICATION" />
+      <xs:field xpath="mstns:VacancyID" />
+      <xs:field xpath="mstns:CandidateID" />
+    </xs:unique>
+    <xs:unique name="CANDIDATE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CANDIDATE" />
+      <xs:field xpath="mstns:CandidateID" />
+    </xs:unique>
+    <xs:unique name="CANDIDATESKILL_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CANDIDATESKILL" />
+      <xs:field xpath="mstns:CandidateID" />
+      <xs:field xpath="mstns:SkillID" />
+    </xs:unique>
+    <xs:unique name="EMPLOYER_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EMPLOYER" />
+      <xs:field xpath="mstns:EmployerID" />
+    </xs:unique>
+    <xs:unique name="SKILL_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SKILL" />
+      <xs:field xpath="mstns:SkillID" />
+    </xs:unique>
+    <xs:unique name="VACANCY_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VACANCY" />
+      <xs:field xpath="mstns:VacancyID" />
+    </xs:unique>
+    <xs:unique name="VACANCYSKILL_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VACANCYSKILL" />
+      <xs:field xpath="mstns:VacancyID" />
+      <xs:field xpath="mstns:SkillID" />
+    </xs:unique>
+    <xs:keyref name="VACANCY_VACANCYSKILL" refer="VACANCY_Constraint1" msprop:rel_Generator_UserChildTable="VACANCYSKILL" msprop:rel_Generator_ChildPropName="GetVACANCYSKILLRows" msprop:rel_Generator_UserRelationName="VACANCY_VACANCYSKILL" msprop:rel_Generator_RelationVarName="relationVACANCY_VACANCYSKILL" msprop:rel_Generator_UserParentTable="VACANCY" msprop:rel_Generator_ParentPropName="VACANCYRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:VACANCYSKILL" />
+      <xs:field xpath="mstns:VacancyID" />
+    </xs:keyref>
+    <xs:keyref name="CANDIDATE_CANDIDATESKILL" refer="CANDIDATE_Constraint1" msprop:rel_Generator_UserChildTable="CANDIDATESKILL" msprop:rel_Generator_ChildPropName="GetCANDIDATESKILLRows" msprop:rel_Generator_UserRelationName="CANDIDATE_CANDIDATESKILL" msprop:rel_Generator_ParentPropName="CANDIDATERow" msprop:rel_Generator_RelationVarName="relationCANDIDATE_CANDIDATESKILL" msprop:rel_Generator_UserParentTable="CANDIDATE" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:CANDIDATESKILL" />
+      <xs:field xpath="mstns:CandidateID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
