@@ -30,7 +30,10 @@ namespace TimerPLay
         private PictureBox pictureBox1;
 
         private int leftOrigin;
+        private int timeTick1;
         private int timeTick2;
+        private int timeTick3;
+        private DateTime raceStart, raceStart3;
 
         /// <summary>
         /// Required designer variable.
@@ -44,10 +47,12 @@ namespace TimerPLay
 			//
 			InitializeComponent();
 
-			//
-			// TODO: Add any constructor code after InitializeComponent call
-			//
-		}
+            leftOrigin = pic1.Left;
+
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
+        }
 
 		/// <summary>
 		/// Clean up any resources being used.
@@ -116,6 +121,7 @@ namespace TimerPLay
             this.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic2.TabIndex = 1;
             this.pic2.TabStop = false;
+            this.pic2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pic2_MouseClick);
             // 
             // pic3
             // 
@@ -126,11 +132,13 @@ namespace TimerPLay
             this.pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic3.TabIndex = 2;
             this.pic3.TabStop = false;
+            this.pic3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pic3_MouseClick);
             // 
             // timer1
             // 
             this.timer1.Interval = 500D;
             this.timer1.SynchronizingObject = this;
+            this.timer1.Elapsed += new System.Timers.ElapsedEventHandler(this.timer1_Elapsed);
             // 
             // timer2
             // 
@@ -142,11 +150,13 @@ namespace TimerPLay
             // 
             this.timer3.Interval = 5000D;
             this.timer3.SynchronizingObject = this;
+            this.timer3.Elapsed += new System.Timers.ElapsedEventHandler(this.timer3_Elapsed);
             // 
             // timer4
             // 
             this.timer4.Interval = 2000D;
             this.timer4.SynchronizingObject = this;
+            this.timer4.Elapsed += new System.Timers.ElapsedEventHandler(this.timer4_Elapsed);
             // 
             // timer5
             // 
@@ -175,6 +185,7 @@ namespace TimerPLay
             this.button1.Size = new System.Drawing.Size(128, 32);
             this.button1.TabIndex = 4;
             this.button1.Text = "On / Off";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -226,10 +237,18 @@ namespace TimerPLay
         private void pic1_MouseClick(object sender, MouseEventArgs e)
         {
             Debug.WriteLine(" user pic1_MouseClick ");
-            leftOrigin = pic1.Left;
-            timer2.Enabled = true;
-            timer2.Interval = 500;
-            timer2.Start();
+            //leftOrigin = pic1.Left;
+            if (timer1.Enabled)
+            {
+                timer1.Enabled = false;
+                timer1.Stop();
+            }
+            else
+            {
+                timer1.Enabled = true;
+                timer1.Interval = 500;
+                timer1.Start();
+            }
         }
 
         private void timer2_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
@@ -237,9 +256,116 @@ namespace TimerPLay
             timeTick2++;
             string timeStr = " timer2 tick " + timeTick2.ToString();
             Debug.WriteLine(timeStr);
+
+            DateTime rightNow;
+            TimeSpan howLong;
+            rightNow = DateTime.Now;
+            howLong = rightNow - raceStart;
+            if(howLong.TotalMilliseconds >=5000)
+            {
+                timer2.Stop();
+                timer2.Enabled = false;
+            }
+            //lblLapTimer.Text = DisplayTimeSpan(howLong);
+            
+            int offset = 30;
+            pic2.Left += offset;
+            
+        }
+
+        private void pic2_MouseClick(object sender, MouseEventArgs e)
+        {
+            Debug.WriteLine(" user pic2_MouseClick ");
+            raceStart = DateTime.Now;
+
+            //leftOrigin = pic2.Left;
+            if (pic2.Left > leftOrigin+100)
+            {
+                //do nothing;
+            }
+            else
+            {
+                timer2.Enabled = true;
+                timer2.Interval = 500;
+                timer2.Start();
+            }
+            
+        }
+
+        private void timer3_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            timeTick3++;
+            string timeStr = " timer3 tick " + timeTick3.ToString();
+            Debug.WriteLine(timeStr);
+
+            if (pic3.Left == leftOrigin)
+            {
+                DateTime rightNow;
+                TimeSpan howLong;
+                rightNow = DateTime.Now;
+                howLong = rightNow - raceStart3;
+                if (howLong.TotalMilliseconds > 2000)
+                {
+                    int offset = 50;
+                    pic3.Left += offset;
+                    timeTick3 = 0;
+                }
+            }
+            else
+            {
+                int offset = 50 + timeTick3 * 10;
+                pic3.Left += offset;
+                if (pic3.Left > 500)
+                {
+                    raceStart3 = DateTime.Now;
+                    pic3.Left = leftOrigin;
+                }
+                    
+            }
+            
+        }
+
+        private void pic3_MouseClick(object sender, MouseEventArgs e)
+        {
+            Debug.WriteLine(" user pic1_MouseClick ");
+            if(!timer3.Enabled)
+            {
+                raceStart3 = DateTime.Now;
+                //leftOrigin = pic1.Left;
+                timer3.Enabled = true;
+                timer3.Interval = 300;
+                timer3.Start();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (timer4.Enabled == false)
+            {
+                timer4.Enabled = true;
+                timer4.Interval = 1000;
+                timer4.Start();
+            }
+            else
+            {
+                timer4.Enabled = false;
+                timer4.Stop();
+            }
+        }
+
+        private void timer4_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            label1.Text = DateTime.Now.ToString("h : mm : ss tt");
+        }
+
+        private void timer1_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            timeTick1++;
+            string timeStr = " timer1 tick " + timeTick1.ToString();
+            Debug.WriteLine(timeStr);
             //pic1.Location.X += 50;  //the ide banned the operation of changing X value;
             //pictureBox1.Left
-            
+
             int offset = 50;
             if (pic1.Right < 450)
                 pic1.Left += offset;
