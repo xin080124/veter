@@ -13,3 +13,11 @@ C:\Temp\Ex-MovingFigures\obj\Debug\TimerPLay.Form1.resources
 C:\Temp\Ex-MovingFigures\obj\Debug\ExMovingFigures.csproj.GenerateResource.Cache
 H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_09\Projects\Ex-MovingFigures\obj\Debug\ExMovingFigures.exe
 H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_09\Projects\Ex-MovingFigures\obj\Debug\ExMovingFigures.pdb
+C:\Temp\Ex-MovingFigures\Ex-MovingFigures\obj\Debug\ExMovingFigures.csprojResolveAssemblyReference.cache
+C:\Temp\Ex-MovingFigures\Ex-MovingFigures\obj\Debug\TimerPLay.Form1.resources
+C:\Temp\Ex-MovingFigures\Ex-MovingFigures\obj\Debug\ExMovingFigures.csproj.GenerateResource.Cache
+C:\Temp\Ex-MovingFigures\Ex-MovingFigures\obj\Debug\ExMovingFigures.exe
+C:\Temp\Ex-MovingFigures\Ex-MovingFigures\obj\Debug\ExMovingFigures.pdb
+C:\Temp\Ex-MovingFigures\Ex-MovingFigures\bin\Debug\ExMovingFigures.exe
+C:\Temp\Ex-MovingFigures\Ex-MovingFigures\bin\Debug\ExMovingFigures.pdb
+C:\Temp\Ex-MovingFigures\Ex-MovingFigures\obj\Debug\ExMovingFigures.Properties.Resources.resources
