@@ -1,0 +1,13 @@
+C:\TEMP\Projects\MenusExample\obj\Debug\MenusExample.exe
+C:\TEMP\Projects\MenusExample\obj\Debug\MenusExample.pdb
+C:\TEMP\Projects\MenusExample\bin\Debug\MenusExample.exe
+C:\TEMP\Projects\MenusExample\bin\Debug\MenusExample.pdb
+C:\TEMP\Projects\MenusExample\obj\Debug\ResolveAssemblyReference.cache
+C:\TEMP\Projects\MenusExample\obj\Debug\MenusExample.Form1.resources
+C:\TEMP\Projects\MenusExample\obj\Debug\MenusExample.csproj.GenerateResource.Cache
+C:\Temp\MenusExample\obj\Debug\MenusExample.exe
+C:\Temp\MenusExample\obj\Debug\MenusExample.pdb
+C:\Temp\MenusExample\bin\Debug\MenusExample.exe
+C:\Temp\MenusExample\bin\Debug\MenusExample.pdb
+C:\Temp\MenusExample\obj\Debug\MenusExample.Form1.resources
+C:\Temp\MenusExample\obj\Debug\MenusExample.csproj.GenerateResource.Cache
