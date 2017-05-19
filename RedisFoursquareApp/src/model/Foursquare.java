@@ -171,7 +171,8 @@ public class Foursquare {
 	 */
 	private void addCheckin(String userId, String venueId, String time, float longitude, float latitude, String categoryId) {
 		//add some values in Redis HASH
-		
+
+     //debug approved by xin		
 		System.out.println(" enter addCheckin "+userId +" "+ userId);
 		
 		Map<String, String> map = new HashMap<>();
@@ -192,11 +193,13 @@ public class Foursquare {
 			String keyCategoryCheckin  = "categorycheckin:"+categoryId;
 			String keyCheckinTime  = "checkintime:nyc";
 			
-			//save to redis
+			//save to redis,use more than 1 structure
+      jedis.hmset(keyChecking, map);
+
 			//structure1, key name is keyChecking
 			jedis.hmset(keyChecking, map);
 			//structure2, key name is keyUserCheckin
-			jedis.zadd(keyUserCheckin, Double.parseDouble(time), next.toString());
+      jedis.zadd(keyUserCheckin, Double.parseDouble(time), next.toString());
 			jedis.zadd(keyVenueCheckin, Double.parseDouble(time), next.toString());
 			jedis.zadd(keyCategoryCheckin, Double.parseDouble(time), next.toString());
 			jedis.zadd(keyCheckinTime, Double.parseDouble(time), next.toString());
