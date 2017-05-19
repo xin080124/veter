@@ -11,3 +11,5 @@ C:\Temp\MenusExample\bin\Debug\MenusExample.exe
 C:\Temp\MenusExample\bin\Debug\MenusExample.pdb
 C:\Temp\MenusExample\obj\Debug\MenusExample.Form1.resources
 C:\Temp\MenusExample\obj\Debug\MenusExample.csproj.GenerateResource.Cache
+E:\git\veter\MenusExample\obj\Debug\MenusExample.exe
+E:\git\veter\MenusExample\obj\Debug\MenusExample.pdb
