@@ -37,7 +37,7 @@ namespace MyMenu
             double dheight = double.Parse(textBox3.Text);
             Person newP = new Person(sname, intage, dheight);
             personList.Add(newP);
-            textBox4.Text += "\r\n"+newP.CommaText();
+            textBox4.Text += newP.CommaText()+ "\r\n";
         }
 
         private void menuNew_Click(object sender, EventArgs e)
@@ -54,9 +54,47 @@ namespace MyMenu
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                StreamReader sr = new StreamReader(openFileDialog1.FileName);
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                personList.Clear();
+
+                StreamReader parseReader = new StreamReader(openFileDialog1.FileName);
+                string personInfo;
+                while ((personInfo = parseReader.ReadLine()) != null)
+                {
+                    Debug.WriteLine(personInfo);
+                    string[] ss = personInfo.Split(',');
+                    int size = 0;
+                    foreach (string item in ss)
+                    {
+                        Debug.WriteLine(item);
+                        //Console.Write(item + "\t");
+                        size++;
+                    }
+                    Debug.WriteLine("\r\n");
+                    //Console.WriteLine();
+                    if (size>=3)
+                    {
+                        string sname = ss[0];
+                        int intage = int.Parse(ss[1]);
+                        double dheight = double.Parse(ss[2]);
+                        Person newP = new Person(sname, intage, dheight);
+                        personList.Add(newP);
+                        textBox4.Text += newP.CommaText() + "\r\n";
+                    }
+
+                    //textBox4.Text += personInfo + "\r\n";
+                }
+                parseReader.Close();
+            
+                /*StreamReader sr = new StreamReader(openFileDialog1.FileName);
                 textBox4.Text = sr.ReadToEnd();
                 sr.Close();
+                */
+
+                
             }
         }
 
