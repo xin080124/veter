@@ -1,0 +1,9 @@
+C:\Temp\Caculator\Caculator\bin\Debug\Caculator.exe.config
+C:\Temp\Caculator\Caculator\bin\Debug\Caculator.exe
+C:\Temp\Caculator\Caculator\bin\Debug\Caculator.pdb
+C:\Temp\Caculator\Caculator\obj\Debug\Caculator.csprojResolveAssemblyReference.cache
+C:\Temp\Caculator\Caculator\obj\Debug\Caculator.AddStripForm.resources
+C:\Temp\Caculator\Caculator\obj\Debug\Caculator.Properties.Resources.resources
+C:\Temp\Caculator\Caculator\obj\Debug\Caculator.csproj.GenerateResource.Cache
+C:\Temp\Caculator\Caculator\obj\Debug\Caculator.exe
+C:\Temp\Caculator\Caculator\obj\Debug\Caculator.pdb

@@ -1,0 +1,95 @@
+﻿namespace Caculator
+{
+    partial class AddStripForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.jkhkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lkjljkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(35, 111);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.jkhkToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // jkhkToolStripMenuItem
+            // 
+            this.jkhkToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lkjljkToolStripMenuItem});
+            this.jkhkToolStripMenuItem.Name = "jkhkToolStripMenuItem";
+            this.jkhkToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.jkhkToolStripMenuItem.Text = "jkhk";
+            this.jkhkToolStripMenuItem.Click += new System.EventHandler(this.jkhkToolStripMenuItem_Click);
+            // 
+            // lkjljkToolStripMenuItem
+            // 
+            this.lkjljkToolStripMenuItem.Name = "lkjljkToolStripMenuItem";
+            this.lkjljkToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.lkjljkToolStripMenuItem.Text = "lkjljk";
+            // 
+            // AddStripForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "AddStripForm";
+            this.Text = "AddStripForm";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem jkhkToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lkjljkToolStripMenuItem;
+    }
+}
+

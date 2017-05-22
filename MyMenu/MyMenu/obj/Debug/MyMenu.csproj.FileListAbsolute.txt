@@ -7,3 +7,6 @@ C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.Properties.Resources.resources
 C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.csproj.GenerateResource.Cache
 C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.exe
 C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.pdb
+C:\Users\zhangy324\Downloads\fromGit\veter\MyMenu\MyMenu\bin\Debug\MyMenu.exe.config
+C:\Users\zhangy324\Downloads\fromGit\veter\MyMenu\MyMenu\obj\Debug\MyMenu.exe
+C:\Users\zhangy324\Downloads\fromGit\veter\MyMenu\MyMenu\obj\Debug\MyMenu.pdb
