@@ -5,7 +5,7 @@ Q1     Most popular places?
 687 43a52546f964a520532c1fe3
 562 4840fe6bf964a52030501fe3
 561 4ace6c89f964a52078d020e3
-2017-05-21T21:27:37.907 2 seconds or 2110 milliseconds
+2017-05-21T21:27:37.907 2110 milliseconds
 
 Q2    Most Active Users?
 2017-05-21T21:27:37.913
@@ -19,10 +19,13 @@ Q2    Most Active Users?
 1107 974
 1096 768
 952 445
-2017-05-21T21:27:38.011 0 seconds or 98 milliseconds
+2017-05-21T21:27:38.011 0 98 milliseconds
 
 Q3    How many other venues of the same category are nearby? CategoryID: 4bf58dd8d48988d124941735	Office
 2017-05-21T21:27:38.011
+
+CategoryID: 4bf58dd8d48988d124941735	Office
+
 4a676ff4f964a5206fc91fe3 0.0 KM
 4c4dcaa49efabe9a41cc1569 0.052 KM
 4eb1386282317685624c2e18 0.5008 KM
