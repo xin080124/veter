@@ -413,6 +413,21 @@ CategoryID: 4bf58dd8d48988d124941735	Office
 4ae88151f964a520edaf21e3 9.9874 KM
 2017-05-21T21:27:38.095 0 seconds or 84 milliseconds
 
+
+Q4    Most Popular places of the most active users of each category?
+2017-05-21T21:27:37.917 
+4a676ff4f964a5206fc91fe3	4bf58dd8d48988d124941735    Office
+4af57814f964a52043f921e3	4bf58dd8d48988d1e0931735    Coffee Shop
+4d40485889616dcb9cf002b5	4bf58dd8d48988d174941735
+42911d00f964a520f5231fe3	4bf58dd8d48988d129951735
+43a52546f964a520532c1fe3	4bf58dd8d48988d1ed931735
+2017-05-21T21:27:38.095 0 seconds or 178 milliseconds
+
+
+
+
+
+
 Q5    Geo-spatial Distribution over Time?
 2017-05-21T21:27:38.095
 Top Left
