@@ -23,45 +23,42 @@ namespace Caculator
 
         private void jkhkToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //lstDisplay;
+			//get last char of the string
+            int boxStringLen = textBox1.Text.Length;
+            str.substring(str.Length - 1, 1)
+            string lastChar = textBox1.Text.Substring(boxStringLen - 1, 1);
+			
+			ArrayList personList = new ArrayList(); 
+
+            Person newP = new Person(sname, intage, dheight);
+            personList.Add(newP);
+
         }
 
-   
+        private  void WriteLstToTxt(ListBox lst,string spath) //listbox ??txt??
+		{
+		    int count = lst.Items.Count;
+		    _wstream = new StreamWriter(spath);
+		    for (int i = 0; i<count;i++){
+		        string data = lst.Items[i].ToString();
+		        _wstream.Write(data);
+		        _wstream.WriteLine();
+		    }
+		    _wstream.Flush();
+		    _wstream.Close();
+		}
 
 
-        private void AddStripForm_KeyDown(object sender, KeyEventArgs e)
-        {
-          
-        }
-
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            /*
-            if (e.KeyCode == Keys.Return)
-            {
-                Debug.WriteLine("enter");
-            }
-            */
-            /*
-            int kc = (int)e.KeyCode;
-            Debug.WriteLine(kc);
-            */
-            
-            if (((int)(e.KeyCode) < 122)&&((int)(e.KeyCode) > 65))
-            {
-                Debug.WriteLine("forbidden");
-                MessageBox.Show("Please fill the year box with number and operator.", "Error");
-                textBox1.Text = "";
-            }
-            else
-            {
-                Debug.WriteLine("ok");
-                if (hasOp)
-                {
-
-                }
-            }
-            
-        }
+		private   void   ReadTxtToLst(ListBox lst,string spath) //listbox ??txt??
+		{
+		    _rstream = new StreamReader(spath, System.Text.Encoding.Default);
+		    string line;
+		    while ((line = _rstream.ReadLine()) != null)
+		    {
+		        lst.Items.Add(line);
+		    }
+		    _rstream.Close();
+		}
+		
     }
 }
