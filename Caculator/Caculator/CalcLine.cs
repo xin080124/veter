@@ -1,6 +1,7 @@
 using System;
 
-namespace AddStrip
+namespace Caculator
+//namespace AddStrip
 {
 	public enum Operator {plus,minus,times,divide,subtotal,total, error};
 	//data type that holds literal code for allowable operators
@@ -12,7 +13,7 @@ namespace AddStrip
 	{
 		private Operator op;
 		private double number;
-
+        public static int env = 0;
 		/// <summary> constructor CalcLine
 		/// create a CalcLine object from an Operator value and a double value
 		/// </summary>
@@ -20,12 +21,18 @@ namespace AddStrip
 		{
 			op = OP;
 			number = num;
-		}
+        }
 
-		/// <summary> constructor CalcLine
-		/// create a CalcLine object from an Operator value
-		/// </summary>
-		public CalcLine(Operator OP)
+
+        public void ChangeEnvTo(int newMode)
+        {
+            env = newMode;
+        }
+
+        /// <summary> constructor CalcLine
+        /// create a CalcLine object from an Operator value
+        /// </summary>
+        public CalcLine(Operator OP)
 		{
 			op = OP;
 			number = 0;
@@ -110,30 +117,62 @@ namespace AddStrip
 		/// </summary>
 		public static string OpToString(Operator OP)
 		{
-			if (OP == Operator.plus) return "+";
-			else if(OP == Operator.minus) return "-";
-			else if(OP == Operator.times) return "*";
-			else if(OP == Operator.divide) return "/";
-			else if(OP == Operator.subtotal) return "#";
-			else if(OP == Operator.total) return "=";
-			else return "Error";
-		}
+            if (env == 1) /*desktop*/
+            {
+                if (OP == Operator.plus) return "+";
+                else if (OP == Operator.minus) return "-";
+                else if (OP == Operator.times) return "*";
+                else if (OP == Operator.divide) return "/";
+                else if (OP == Operator.subtotal) return "#";
+                else if (OP == Operator.total) return "=";
+                else return "Error";
+            }
+            else
+            {
+                /*on laptop, no number keyboard*/
+                if (OP == Operator.plus) return ",";
+                else if (OP == Operator.minus) return "-";
+                else if (OP == Operator.times) return ";";
+                else if (OP == Operator.divide) return "/";
+                else if (OP == Operator.subtotal) return "#";
+                else if (OP == Operator.total) return "=";
+                else return "Error";
+                
+            }
 
-		/// <summary> method CharToOp
-		/// return the Operator value matching a given char value
-		/// 
-		/// Can be used to check whether a char converts to a valid Operator
-		/// </summary>
-		public static Operator CharToOp(char strOp)
+        }
+
+        /// <summary> method CharToOp
+        /// return the Operator value matching a given char value
+        /// 
+        /// Can be used to check whether a char converts to a valid Operator
+        /// </summary>
+        public static Operator CharToOp(char strOp)
 		{
-			if (strOp == '+') return Operator.plus;
-			else if (strOp == '-') return Operator.minus;
-			else if (strOp == '*') return Operator.times;
-			else if (strOp == '/') return Operator.divide;
-			else if (strOp == '#') return Operator.subtotal;
-			else if (strOp == '=') return Operator.total;
-			else return Operator.error;
-		}
+            if(env == 1) /*desktop*/
+            {
+                if (strOp == '+') return Operator.plus;
+                else if (strOp == '-') return Operator.minus;
+                else if (strOp == '*') return Operator.times;
+                else if (strOp == '/') return Operator.divide;
+                else if (strOp == '#') return Operator.subtotal;
+                else if (strOp == '=') return Operator.total;
+                else return Operator.error;
+            }
+            else
+            {
+                /*on laptop, no number keyboard*/
+                if (strOp == ',') return Operator.plus;
+                else if (strOp == '-') return Operator.minus;
+                else if (strOp == ';') return Operator.times;
+                else if (strOp == '/') return Operator.divide;
+                else if (strOp == '#') return Operator.subtotal;
+                else if (strOp == '=') return Operator.total;
+                else return Operator.error;
+                
+            }
 
-	}
+        }
+
+    }
 }
