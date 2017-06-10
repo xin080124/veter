@@ -1,0 +1,12 @@
+C:\Temp\MyMenu\MyMenu\bin\Debug\MyMenu.exe.config
+C:\Temp\MyMenu\MyMenu\bin\Debug\MyMenu.exe
+C:\Temp\MyMenu\MyMenu\bin\Debug\MyMenu.pdb
+C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.csprojResolveAssemblyReference.cache
+C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.Form1.resources
+C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.Properties.Resources.resources
+C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.csproj.GenerateResource.Cache
+C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.exe
+C:\Temp\MyMenu\MyMenu\obj\Debug\MyMenu.pdb
+E:\git\veter\MyMenu\MyMenu\bin\Debug\MyMenu.exe.config
+E:\git\veter\MyMenu\MyMenu\obj\Debug\MyMenu.exe
+E:\git\veter\MyMenu\MyMenu\obj\Debug\MyMenu.pdb
