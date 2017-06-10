@@ -61,6 +61,25 @@ namespace Caculator
             return res;
         }
 
+        private void btnDeleteTreatment_Click(object sender, EventArgs e)
+        {
+            DataRow deleteTreatmentRow = DM.dtTreatment.Rows[currencyManager.Position];
+            DataRow[] VisitTreatmentRow = DM.dtVisitTreatment.Select("TreatmentID = " + lblTreatmentID.Text);
+            if (VisitTreatmentRow.Length != 0)
+            {
+                MessageBox.Show("You may only delete Treatments that are not allocated to visits", "Error");
+            }
+            else
+            {
+                if (MessageBox.Show("Are you sure you want to delete this record?", "Warning",
+                    MessageBoxButtons.OKCancel) == DialogResult.OK)
+                {
+                    deleteTreatmentRow.Delete();
+                    DM.UpdateTreatment();
+                }
+            }
+        }
+
         private  void WriteLstToTxt(ListBox lst,string spath) //listbox ??txt??
 		{
 		    int count = lst.Items.Count;
