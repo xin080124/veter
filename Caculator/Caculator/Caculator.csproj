@@ -53,6 +53,7 @@
       <DependentUpon>AddStripForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CalcLine.cs" />
+    <Compile Include="Calculation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddStripForm.resx">

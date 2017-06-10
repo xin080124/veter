@@ -28,57 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.jkhkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lkjljkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.lstDisplay = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.mainMenu1 = new System.Windows.Forms.MainMenu(this.components);
+            this.menuItem1 = new System.Windows.Forms.MenuItem();
+            this.menuNew = new System.Windows.Forms.MenuItem();
+            this.menuOpen = new System.Windows.Forms.MenuItem();
+            this.menuSave = new System.Windows.Forms.MenuItem();
+            this.menuItem7 = new System.Windows.Forms.MenuItem();
+            this.menuExit = new System.Windows.Forms.MenuItem();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(35, 111);
+            this.textBox1.Location = new System.Drawing.Point(214, 73);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 0;
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
-            // menuStrip1
+            // lstDisplay
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.jkhkToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
+            this.lstDisplay.FormattingEnabled = true;
+            this.lstDisplay.Location = new System.Drawing.Point(25, 36);
+            this.lstDisplay.Name = "lstDisplay";
+            this.lstDisplay.Size = new System.Drawing.Size(161, 238);
+            this.lstDisplay.TabIndex = 2;
             // 
-            // jkhkToolStripMenuItem
+            // label1
             // 
-            this.jkhkToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lkjljkToolStripMenuItem});
-            this.jkhkToolStripMenuItem.Name = "jkhkToolStripMenuItem";
-            this.jkhkToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
-            this.jkhkToolStripMenuItem.Text = "jkhk";
-            this.jkhkToolStripMenuItem.Click += new System.EventHandler(this.jkhkToolStripMenuItem_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(211, 57);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(212, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Enter your caculations in the text box below";
             // 
-            // lkjljkToolStripMenuItem
+            // mainMenu1
             // 
-            this.lkjljkToolStripMenuItem.Name = "lkjljkToolStripMenuItem";
-            this.lkjljkToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.lkjljkToolStripMenuItem.Text = "lkjljk";
+            this.mainMenu1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.menuItem1});
+            // 
+            // menuItem1
+            // 
+            this.menuItem1.Index = 0;
+            this.menuItem1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.menuNew,
+            this.menuOpen,
+            this.menuSave,
+            this.menuItem7,
+            this.menuExit});
+            this.menuItem1.Text = "File";
+            // 
+            // menuNew
+            // 
+            this.menuNew.Index = 0;
+            this.menuNew.Text = "New";
+            // 
+            // menuOpen
+            // 
+            this.menuOpen.Index = 1;
+            this.menuOpen.Text = "Open...";
+            // 
+            // menuSave
+            // 
+            this.menuSave.Index = 2;
+            this.menuSave.Text = "Save...";
+            // 
+            // menuItem7
+            // 
+            this.menuItem7.Index = 3;
+            this.menuItem7.Text = "-";
+            // 
+            // menuExit
+            // 
+            this.menuExit.Index = 4;
+            this.menuExit.Text = "Exit";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(211, 159);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(215, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "To make changes select a line in the list first";
             // 
             // AddStripForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(511, 334);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lstDisplay);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Menu = this.mainMenu1;
             this.Name = "AddStripForm";
             this.Text = "AddStripForm";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.AddStripForm_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,9 +138,16 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem jkhkToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lkjljkToolStripMenuItem;
+        private System.Windows.Forms.ListBox lstDisplay;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MainMenu mainMenu1;
+        private System.Windows.Forms.MenuItem menuItem1;
+        private System.Windows.Forms.MenuItem menuNew;
+        private System.Windows.Forms.MenuItem menuOpen;
+        private System.Windows.Forms.MenuItem menuSave;
+        private System.Windows.Forms.MenuItem menuItem7;
+        private System.Windows.Forms.MenuItem menuExit;
+        private System.Windows.Forms.Label label2;
     }
 }
 
