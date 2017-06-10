@@ -35,6 +35,32 @@ namespace Caculator
 
         }
 
+        public float yxDivide(string figStr1, string figStr2)
+        {
+            int fig1 = 1;
+            int fig2 = 1;
+            float res = 0;
+
+            try
+            {
+                fig1 = int.Parse(figStr1);
+                fig2 = int.Parse(figStr2);
+            }
+            catch
+            {
+                MessageBox.Show("Please fill the year box.", "Error");
+            }
+            try
+            {
+                res = fig1 / fig2;
+            }
+            catch
+            {
+                MessageBox.Show("Dividing 0 is nonsense.", "Error");
+            }
+            return res;
+        }
+
         private  void WriteLstToTxt(ListBox lst,string spath) //listbox ??txt??
 		{
 		    int count = lst.Items.Count;
