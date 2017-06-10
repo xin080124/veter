@@ -1,0 +1,8 @@
+C:\Temp\review6421\review6421\obj\Debug\review6421.csprojResolveAssemblyReference.cache
+C:\Temp\review6421\review6421\obj\Debug\review6421.Properties.Resources.resources
+C:\Temp\review6421\review6421\obj\Debug\review6421.csproj.GenerateResource.Cache
+C:\Temp\review6421\review6421\bin\Debug\review6421.exe.config
+C:\Temp\review6421\review6421\bin\Debug\review6421.exe
+C:\Temp\review6421\review6421\bin\Debug\review6421.pdb
+C:\Temp\review6421\review6421\obj\Debug\review6421.exe
+C:\Temp\review6421\review6421\obj\Debug\review6421.pdb

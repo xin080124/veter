@@ -1,0 +1,7 @@
+obj\Debug\DrawExample1.exe
+obj\Debug\DrawExample1.pdb
+bin\Debug\DrawExample1.exe
+bin\Debug\DrawExample1.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DrawExample1.Form1.resources
+obj\Debug\DrawExample1.csproj.GenerateResource.Cache

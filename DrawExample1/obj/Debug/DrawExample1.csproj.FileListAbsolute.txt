@@ -1,0 +1,13 @@
+C:\TEMP\DrawExample1\obj\Debug\DrawExample1.exe
+C:\TEMP\DrawExample1\obj\Debug\DrawExample1.pdb
+C:\TEMP\DrawExample1\bin\Debug\DrawExample1.exe
+C:\TEMP\DrawExample1\bin\Debug\DrawExample1.pdb
+C:\TEMP\DrawExample1\obj\Debug\DrawExample1.Form1.resources
+C:\TEMP\DrawExample1\obj\Debug\DrawExample1.csproj.GenerateResource.Cache
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\04_DrawExample1\obj\Debug\DrawExample1.exe
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\04_DrawExample1\obj\Debug\DrawExample1.pdb
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\04_DrawExample1\bin\Debug\DrawExample1.exe
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\04_DrawExample1\bin\Debug\DrawExample1.pdb
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\04_DrawExample1\obj\Debug\DrawExample1.Form1.resources
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\04_DrawExample1\obj\Debug\DrawExample1.csproj.GenerateResource.Cache
+C:\Temp\DrawExample1\obj\Debug\DrawExample1.csprojResolveAssemblyReference.cache
