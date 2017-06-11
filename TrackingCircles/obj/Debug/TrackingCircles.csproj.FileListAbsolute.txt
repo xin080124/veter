@@ -1,0 +1,16 @@
+C:\TEMP\TrackingCircles\obj\Debug\TrackingCircles.exe
+C:\TEMP\TrackingCircles\obj\Debug\TrackingCircles.pdb
+C:\TEMP\TrackingCircles\bin\Debug\TrackingCircles.exe
+C:\TEMP\TrackingCircles\bin\Debug\TrackingCircles.pdb
+C:\TEMP\TrackingCircles\obj\Debug\TrackingCircles.Form1.resources
+C:\TEMP\TrackingCircles\obj\Debug\TrackingCircles.Form2.resources
+C:\TEMP\TrackingCircles\obj\Debug\TrackingCircles.Form3.resources
+C:\TEMP\TrackingCircles\obj\Debug\TrackingCircles.csproj.GenerateResource.Cache
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\06_TrackingCircles\obj\Debug\TrackingCircles.exe
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\06_TrackingCircles\obj\Debug\TrackingCircles.pdb
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\06_TrackingCircles\bin\Debug\TrackingCircles.exe
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\06_TrackingCircles\bin\Debug\TrackingCircles.pdb
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\06_TrackingCircles\obj\Debug\TrackingCircles.Form1.resources
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\06_TrackingCircles\obj\Debug\TrackingCircles.Form2.resources
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\06_TrackingCircles\obj\Debug\TrackingCircles.Form3.resources
+H:\Business\Disc\tutors\Department of Computing - Course Materials\ISCG6421 GUI Programming\2015 - Semester 2\Class Material\Week_10\06_TrackingCircles\obj\Debug\TrackingCircles.csproj.GenerateResource.Cache

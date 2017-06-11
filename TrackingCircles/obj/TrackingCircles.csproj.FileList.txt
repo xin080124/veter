@@ -1,0 +1,9 @@
+obj\Debug\TrackingCircles.exe
+obj\Debug\TrackingCircles.pdb
+bin\Debug\TrackingCircles.exe
+bin\Debug\TrackingCircles.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TrackingCircles.Form1.resources
+obj\Debug\TrackingCircles.Form2.resources
+obj\Debug\TrackingCircles.Form3.resources
+obj\Debug\TrackingCircles.csproj.GenerateResource.Cache
