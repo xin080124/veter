@@ -1,0 +1,9 @@
+C:\Temp\MyDraw\MyDraw\bin\Debug\MyDraw.exe.config
+C:\Temp\MyDraw\MyDraw\bin\Debug\MyDraw.exe
+C:\Temp\MyDraw\MyDraw\bin\Debug\MyDraw.pdb
+C:\Temp\MyDraw\MyDraw\obj\Debug\MyDraw.csprojResolveAssemblyReference.cache
+C:\Temp\MyDraw\MyDraw\obj\Debug\MyDraw.Form1.resources
+C:\Temp\MyDraw\MyDraw\obj\Debug\MyDraw.Properties.Resources.resources
+C:\Temp\MyDraw\MyDraw\obj\Debug\MyDraw.csproj.GenerateResource.Cache
+C:\Temp\MyDraw\MyDraw\obj\Debug\MyDraw.exe
+C:\Temp\MyDraw\MyDraw\obj\Debug\MyDraw.pdb
