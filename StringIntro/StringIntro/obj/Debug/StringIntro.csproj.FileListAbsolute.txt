@@ -1,0 +1,12 @@
+C:\TEMP\StringIntro\obj\Debug\StringIntro.exe
+C:\TEMP\StringIntro\obj\Debug\StringIntro.pdb
+C:\TEMP\StringIntro\bin\Debug\StringIntro.exe
+C:\TEMP\StringIntro\bin\Debug\StringIntro.pdb
+C:\TEMP\StringIntro\obj\Debug\StringIntro.Form1.resources
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringIntro\obj\Debug\StringIntro.exe
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringIntro\obj\Debug\StringIntro.pdb
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringIntro\bin\Debug\StringIntro.exe
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringIntro\bin\Debug\StringIntro.pdb
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringIntro\obj\Debug\StringIntro.Form1.resources
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringIntro\obj\Debug\StringIntro.csproj.GenerateResource.Cache
+C:\Temp\StringIntro\obj\Debug\StringIntro.csproj.GenerateResource.Cache

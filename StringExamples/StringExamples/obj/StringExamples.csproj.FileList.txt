@@ -1,0 +1,7 @@
+obj\Debug\StringExamples.exe
+obj\Debug\StringExamples.pdb
+bin\Debug\StringExamples.exe
+bin\Debug\StringExamples.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StringExamples.Form1.resources
+obj\Debug\StringExamples.csproj.GenerateResource.Cache

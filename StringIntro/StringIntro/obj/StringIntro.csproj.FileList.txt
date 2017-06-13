@@ -1,0 +1,2 @@
+obj\Debug\StringIntro.exe
+obj\Debug\StringIntro.pdb

@@ -1,0 +1,7 @@
+C:\TEMP\StringIntro\obj\Debug\StringIntro.exe
+C:\TEMP\StringIntro\obj\Debug\StringIntro.pdb
+C:\TEMP\StringIntro\bin\Debug\StringIntro.exe
+C:\TEMP\StringIntro\bin\Debug\StringIntro.pdb
+C:\TEMP\StringIntro\obj\Debug\ResolveAssemblyReference.cache
+C:\TEMP\StringIntro\obj\Debug\StringIntro.Form1.resources
+C:\TEMP\StringIntro\obj\Debug\StringIntro.csproj.GenerateResource.Cache

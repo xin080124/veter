@@ -1,0 +1,13 @@
+C:\TEMP\StringExamples\obj\Debug\StringExamples.exe
+C:\TEMP\StringExamples\obj\Debug\StringExamples.pdb
+C:\TEMP\StringExamples\bin\Debug\StringExamples.exe
+C:\TEMP\StringExamples\bin\Debug\StringExamples.pdb
+C:\TEMP\StringExamples\obj\Debug\StringExamples.Form1.resources
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringExamples\obj\Debug\StringExamples.exe
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringExamples\obj\Debug\StringExamples.pdb
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringExamples\bin\Debug\StringExamples.exe
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringExamples\bin\Debug\StringExamples.pdb
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringExamples\obj\Debug\StringExamples.Form1.resources
+H:\Business\Disc\tutors\6421 GUI Programming\2015 - Semester 2\Week_06\Projects\StringExamples\obj\Debug\StringExamples.csproj.GenerateResource.Cache
+C:\Temp\StringExamples\obj\Debug\StringExamples.csprojResolveAssemblyReference.cache
+C:\Temp\StringExamples\obj\Debug\StringExamples.csproj.GenerateResource.Cache
