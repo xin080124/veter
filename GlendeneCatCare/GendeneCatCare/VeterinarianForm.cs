@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+using System.Diagnostics;
+
 namespace GendeneCatCare
 {
     public partial class VeterinarianForm : Form
@@ -125,6 +128,33 @@ namespace GendeneCatCare
 
                 //Give the user a success message
                 MessageBox.Show("Veterinarian updated successfully", "Success");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string vetID = lblveterinarianID.Text;
+            double totalDue = 0.0;
+            double due = 0.0;
+            DataRow[] vetVisitRows = DM.dtVisit.Select("VeterinarianID =" + vetID);
+            foreach(DataRow drVV in vetVisitRows)
+            {
+                string visitID = drVV["VisitID"].ToString();
+                Debug.WriteLine("enter: VisitID = " + visitID);
+                DataRow[] visitTreatmentRows = DM.dtVisitTreatment.Select("VisitID = " + visitID);
+                foreach(DataRow drVT in visitTreatmentRows)
+                {
+                    string treatmentID = drVT["TreatmentID"].ToString();
+                    DataRow[] drTreatment = DM.dtTreatment.Select("TreatmentID = " + treatmentID);
+                    Debug.WriteLine("enter: treatmentID = " + treatmentID);
+                    double unitDue=0.0;
+                    foreach (DataRow drT in drTreatment)
+                    {
+                        unitDue = double.Parse(drT["Cost"].ToString());
+                    }
+                    due += unitDue * int.Parse(drVT["Quantity"].ToString());
+                    Debug.WriteLine("enter: due = " + due);
+                }
             }
         }
     }

@@ -47,6 +47,7 @@
             this.btnUPdateVeterinarian = new System.Windows.Forms.Button();
             this.btnDeleteVeterinarian = new System.Windows.Forms.Button();
             this.btnReturn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstVeterinarians
@@ -184,11 +185,22 @@
             this.btnReturn.UseVisualStyleBackColor = true;
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(575, 228);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "due";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // VeterinarianForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(748, 389);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnDeleteVeterinarian);
             this.Controls.Add(this.btnUPdateVeterinarian);
@@ -228,5 +240,6 @@
         private System.Windows.Forms.Button btnUPdateVeterinarian;
         private System.Windows.Forms.Button btnDeleteVeterinarian;
         private System.Windows.Forms.Button btnReturn;
+        private System.Windows.Forms.Button button1;
     }
 }
