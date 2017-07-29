@@ -33,7 +33,7 @@
             // 
             // ctlQuiz1
             // 
-            this.ctlQuiz1.Location = new System.Drawing.Point(12, 12);
+            this.ctlQuiz1.Location = new System.Drawing.Point(12, 13);
             this.ctlQuiz1.Name = "ctlQuiz1";
             this.ctlQuiz1.Size = new System.Drawing.Size(338, 296);
             this.ctlQuiz1.TabIndex = 0;

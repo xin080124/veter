@@ -1,11 +1,11 @@
 C:\Temp\ctlQuizLib\test\bin\Debug\test.exe.config
 C:\Temp\ctlQuizLib\test\bin\Debug\test.exe
 C:\Temp\ctlQuizLib\test\bin\Debug\test.pdb
-C:\Temp\ctlQuizLib\test\bin\Debug\ctlQuizLib.dll
-C:\Temp\ctlQuizLib\test\bin\Debug\ctlQuizLib.pdb
 C:\Temp\ctlQuizLib\test\obj\Debug\test.csprojResolveAssemblyReference.cache
 C:\Temp\ctlQuizLib\test\obj\Debug\test.TestForm.resources
 C:\Temp\ctlQuizLib\test\obj\Debug\test.Properties.Resources.resources
 C:\Temp\ctlQuizLib\test\obj\Debug\test.csproj.GenerateResource.Cache
 C:\Temp\ctlQuizLib\test\obj\Debug\test.exe
 C:\Temp\ctlQuizLib\test\obj\Debug\test.pdb
+C:\Temp\ctlQuizLib\test\bin\Debug\ctlQuizLib.dll
+C:\Temp\ctlQuizLib\test\bin\Debug\ctlQuizLib.pdb

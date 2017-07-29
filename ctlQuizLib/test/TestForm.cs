@@ -16,5 +16,15 @@ namespace test
         {
             InitializeComponent();
         }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butSubmit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
