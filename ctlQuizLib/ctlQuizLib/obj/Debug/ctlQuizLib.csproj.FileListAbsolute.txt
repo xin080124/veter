@@ -1,0 +1,7 @@
+C:\Temp\ctlQuizLib\ctlQuizLib\bin\Debug\ctlQuizLib.dll
+C:\Temp\ctlQuizLib\ctlQuizLib\bin\Debug\ctlQuizLib.pdb
+C:\Temp\ctlQuizLib\ctlQuizLib\obj\Debug\ctlQuizLib.csprojResolveAssemblyReference.cache
+C:\Temp\ctlQuizLib\ctlQuizLib\obj\Debug\ctlQuizLib.dll
+C:\Temp\ctlQuizLib\ctlQuizLib\obj\Debug\ctlQuizLib.pdb
+C:\Temp\ctlQuizLib\ctlQuizLib\obj\Debug\ctlQuizLib.ctlQuiz.resources
+C:\Temp\ctlQuizLib\ctlQuizLib\obj\Debug\ctlQuizLib.csproj.GenerateResource.Cache

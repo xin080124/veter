@@ -1,0 +1,5 @@
+C:\Temp\ctlQuizLib1\ctlQuizLib1\bin\Debug\ctlQuizLib1.dll
+C:\Temp\ctlQuizLib1\ctlQuizLib1\bin\Debug\ctlQuizLib1.pdb
+C:\Temp\ctlQuizLib1\ctlQuizLib1\obj\Debug\ctlQuizLib1.csprojResolveAssemblyReference.cache
+C:\Temp\ctlQuizLib1\ctlQuizLib1\obj\Debug\ctlQuizLib1.dll
+C:\Temp\ctlQuizLib1\ctlQuizLib1\obj\Debug\ctlQuizLib1.pdb

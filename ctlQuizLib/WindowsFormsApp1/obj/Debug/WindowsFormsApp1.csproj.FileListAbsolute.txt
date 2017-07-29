@@ -1,0 +1,7 @@
+C:\Temp\ctlQuizLib\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Temp\ctlQuizLib\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Temp\ctlQuizLib\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Temp\ctlQuizLib\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Temp\ctlQuizLib\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Temp\ctlQuizLib\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Temp\ctlQuizLib\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctlQuizLib1", "ctlQuizLib1\ctlQuizLib1.csproj", "{060DA806-E3F8-45F7-97E4-D8A699302A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{BB72041C-1D65-4DF2-BD0A-CDF1F702E789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{060DA806-E3F8-45F7-97E4-D8A699302A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060DA806-E3F8-45F7-97E4-D8A699302A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060DA806-E3F8-45F7-97E4-D8A699302A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060DA806-E3F8-45F7-97E4-D8A699302A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB72041C-1D65-4DF2-BD0A-CDF1F702E789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB72041C-1D65-4DF2-BD0A-CDF1F702E789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB72041C-1D65-4DF2-BD0A-CDF1F702E789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB72041C-1D65-4DF2-BD0A-CDF1F702E789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

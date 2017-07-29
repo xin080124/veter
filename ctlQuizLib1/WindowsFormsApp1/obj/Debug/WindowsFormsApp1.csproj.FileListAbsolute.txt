@@ -1,0 +1,10 @@
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\bin\Debug\ctlQuizLib1.dll
+C:\Temp\ctlQuizLib1\WindowsFormsApp1\bin\Debug\ctlQuizLib1.pdb
