@@ -18,6 +18,8 @@ namespace memoriseWords
         {
             InitializeComponent();
             theController = new WordController(this);
+            Student Tom = new Student("Tom");
+            theController.setStudent(Tom);
         }
 
         private void butShowWord_Click(object sender, EventArgs e)
@@ -29,6 +31,11 @@ namespace memoriseWords
         private void butShowMeaning_Click(object sender, EventArgs e)
         {
             textMeaning.Text = theController.readMeaning();
+        }
+
+        private void btnSuccess_Click(object sender, EventArgs e)
+        {
+            theController.addStudentPassTimes();
         }
     }
 }

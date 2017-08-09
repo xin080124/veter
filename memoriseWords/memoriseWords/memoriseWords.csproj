@@ -48,6 +48,7 @@
       <DependentUpon>ctlWords.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
     <Compile Include="vocabulary.cs" />
     <Compile Include="WordController.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />

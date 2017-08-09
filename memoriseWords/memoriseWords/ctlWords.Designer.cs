@@ -78,6 +78,7 @@
             this.btnSuccess.TabIndex = 4;
             this.btnSuccess.Text = "success";
             this.btnSuccess.UseVisualStyleBackColor = true;
+            this.btnSuccess.Click += new System.EventHandler(this.btnSuccess_Click);
             // 
             // butFail
             // 

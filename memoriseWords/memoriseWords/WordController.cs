@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System.IO;
+using System.Collections;
 
 namespace memoriseWords
 {
@@ -12,7 +13,11 @@ namespace memoriseWords
     {
         private ctlWords theInterface;
         private vocabulary theVocabulary;
+        private Student theStudent;
+        private ArrayList theTimes;
 
+        private int wordIndex;
+        
         private string word;
         private string meaning;
 
@@ -23,6 +28,22 @@ namespace memoriseWords
             theInterface = newInterface;
             theVocabulary = new vocabulary();
             sr = new StreamReader("c:\\temp\\WordBank.txt");
+
+            wordIndex = -1;
+        }
+
+        public void setStudent(Student currentStudent)
+        {
+            theStudent = currentStudent;
+            theTimes = new ArrayList();
+        }
+
+        public void addStudentPassTimes()
+        {
+            int oldValue = theStudent.getTimes(wordIndex);
+            int newValue = oldValue + 1;
+            theStudent.setTimes(wordIndex,newValue);
+            //theTimes.Add(newValue);
         }
 
         public string readWord()
@@ -36,14 +57,12 @@ namespace memoriseWords
                     theVocabulary.setWord(word);
                     meaning = sr.ReadLine();
                     //theVocabulary.setSolution(solution);
+                    wordIndex++;
                 }
-
                 else
-
                 {
-
                     word = null;
-
+                    theStudent.writeTimesToFile();
                 }
 
             }
