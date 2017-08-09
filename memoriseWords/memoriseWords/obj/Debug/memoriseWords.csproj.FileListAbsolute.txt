@@ -1,0 +1,7 @@
+C:\Temp\memoriseWords\memoriseWords\bin\Debug\memoriseWords.dll
+C:\Temp\memoriseWords\memoriseWords\bin\Debug\memoriseWords.pdb
+C:\Temp\memoriseWords\memoriseWords\obj\Debug\memoriseWords.csprojResolveAssemblyReference.cache
+C:\Temp\memoriseWords\memoriseWords\obj\Debug\memoriseWords.dll
+C:\Temp\memoriseWords\memoriseWords\obj\Debug\memoriseWords.pdb
+C:\Temp\memoriseWords\memoriseWords\obj\Debug\memoriseWords.ctlWords.resources
+C:\Temp\memoriseWords\memoriseWords\obj\Debug\memoriseWords.csproj.GenerateResource.Cache

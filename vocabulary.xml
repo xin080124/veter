@@ -1,0 +1,202 @@
+<books>
+<book>
+<id>1</id>
+<title>Harry potter</title>
+<category>novel</category>
+<desc>story of wizard and his friends.</desc>
+<popularity>2869</popularity>
+<onsale>930</onsale>
+<price>50</price>
+<src>book1</src>
+</book>
+<book>
+<id>2</id>
+<title>Cambridge IELTS 11</title>
+<category>Education</category>
+<desc>Authentic Examination Papers.</desc>
+<popularity>2311</popularity>
+<onsale>2003</onsale>
+<price>33.99</price>
+<src>book12</src>
+</book>
+<book>
+<id>3</id>
+<title>Divergent</title>
+<category>Fiction and Poetry</category>
+<desc>A debut novel that will leave you breathless.</desc>
+<popularity>546</popularity>
+<onsale>3423</onsale>
+<price>18.85</price>
+<src>book3</src>
+</book>
+<book>
+<id>4</id>
+<title>Web Design with HTML, CSS, JavaScript and jQuery Set</title>
+<category>Careers</category>
+<desc>A two-book set for web designers and front-end developers</desc>
+<popularity>4920</popularity>
+<onsale>2324</onsale>
+<price>81.92</price>
+<src>book4</src>
+</book>
+<book>
+<id>5</id>
+<title>Learning Web Design</title>
+<category>Careers</category>
+<desc>Everything you need to know to create professional web sites is right here</desc>
+<popularity>3885</popularity>
+<onsale>3920</onsale>
+<price>53.2</price>
+<src>book5</src>
+</book>
+<book>
+<id>6</id>
+<title>The Real Book of Real Estate </title>
+<category>Investing</category>
+<desc>written by experts who practice what they teach and who will teach you to thrive, not merely survive, during turbulent economic times</desc>
+<popularity>3820</popularity>
+<onsale>394</onsale>
+<price>25.38</price>
+<src>book6</src>
+</book>
+<book>
+<id>7</id>
+<title>You Can be a Stock Market Genius</title>
+<category>Investing</category>
+<desc>A comprehensive and practical guide to the stock market from a successful fund manager--filled</desc>
+<popularity>2940</popularity>
+<onsale>3049</onsale>
+<price>20.88</price>
+<src>book7</src>
+</book>
+<book>
+<id>8</id>
+<title>Rich Dad Poor Dad</title>
+<category>Investing</category>
+<desc>the #1 Personal Finance book of all time... translated into dozens of languages and sold around the world</desc>
+<popularity>3246</popularity>
+<onsale>555</onsale>
+<price>11.46</price>
+<src>book8</src>
+</book>
+<book>
+<id>9</id>
+<title>150 Cupcake and Muffin Recipes</title>
+<category>Cooking and Food</category>
+<desc>This collection of 150 recipes gives you easy step-by-step instructions to make amazing cupcakes and muffins</desc>
+<popularity>34</popularity>
+<onsale>399</onsale>
+<price>10.47</price>
+<src>book9</src>
+</book>
+<book>
+<id>10</id>
+<title>150 Student Recipes</title>
+<category>Cooking and Food</category>
+<desc>This collection of 150 recipes gives you easy step-by-step instructions to make an amazing dish</desc>
+<popularity>1234</popularity>
+<onsale>323</onsale>
+<price>10.31</price>
+<src>book10</src>
+</book>
+<book>
+<id>11</id>
+<title>Yoga Anatomy</title>
+<category>Sports</category>
+<desc>This is the ultimate reference for yoga practitioners, instructors and enthusiasts alike! </desc>
+<popularity>2999</popularity>
+<onsale>38</onsale>
+<price>22.37</price>
+<src>book11</src>
+</book>
+<book>
+<id>12</id>
+<title>The Floret Farm's Cut Flower Garden</title>
+<category>Gardening</category>
+<desc>a book on how to grow, harvest, and arrange gorgeous blooms year-round</desc>
+<popularity>2883</popularity>
+<onsale>3940</onsale>
+<price>33.47</price>
+<src>book12</src>
+</book>
+<book>
+<id>13</id>
+<title>Power Foods for the Brain</title>
+<category>Nutrition</category>
+<desc>gathered the most up-to-date research and created a groundbreaking program that can strengthen your memory and protect your brain's health</desc>
+<popularity>234</popularity>
+<onsale>3938</onsale>
+<price>18.58</price>
+<src>book13</src>
+</book>
+<book>
+<id>14</id>
+<title>Dr. Seuss - Yellow Back Book</title>
+<category>Education</category>
+<desc>In this classic Seussian tale, the good doctor primes his readers against all the little mishaps and misadventures that can befall even the best of us - from bang-ups and hang-ups to lurches and slumps - encouraging us to take life in our stride!</desc>
+<popularity>4852</popularity>
+<onsale>435</onsale>
+<price>11.64</price>
+<src>book14</src>
+</book>
+<book>
+<id>15</id>
+<title>English Decoration</title>
+<category>Interior Design</category>
+<desc>The book begins with an essay on the English style in decoration and ends with a style directory</desc>
+<popularity>930</popularity>
+<onsale>222</onsale>
+<price>46.55</price>
+<src>book15</src>
+</book>
+<book>
+<id>16</id>
+<title>William Yeoward at Home</title>
+<category>Interior Design</category>
+<desc>Elegant Living in Town and Country</desc>
+<popularity>388</popularity>
+<onsale>384</onsale>
+<price>40.45</price>
+<src>book16</src>
+</book>
+<book>
+<id>17</id>
+<title>The Barefoot Investor </title>
+<category>This book will show you how to create an entire financial plan that is so simple you can sketch it on the back of a serviette</category>
+<desc>Business</desc>
+<popularity>302</popularity>
+<onsale>592</onsale>
+<price>24.64</price>
+<src>book17</src>
+</book>
+<book>
+<id>18</id>
+<title>Reminiscences of a Stock Operator</title>
+<category>A must-read classic for all investors, whether brand-new or experienced</category>
+<desc>Business</desc>
+<popularity>9283</popularity>
+<onsale>334</onsale>
+<price>24.64</price>
+<src>book18</src>
+</book>
+<book>
+<id>19</id>
+<title>The Complete Sherlock Holmes</title>
+<category>The eccentric detective Sherlock Holmes with the aid of Dr. Watson investigates strange and baffling mysteries.</category>
+<desc>novel</desc>
+<popularity>384</popularity>
+<onsale>239</onsale>
+<price>23.09</price>
+<src>book19</src>
+</book>
+<book>
+<id>20</id>
+<title>Steve Jobs: The Exclusive Biography</title>
+<category>Biography</category>
+<desc>The Book of Jobs, Isaacson provides an extraordinary account of Jobs\' professional and personal life</desc>
+<popularity>546</popularity>
+<onsale>145</onsale>
+<price>31.35</price>
+<src>book20</src>
+</book>
+</books>
