@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Collections;
 
+
+using System.Windows.Forms;
+
 namespace memoriseWords
 {
     class WordController
@@ -14,6 +17,7 @@ namespace memoriseWords
         private ctlWords theInterface;
         private vocabulary theVocabulary;
         private Student theStudent;
+        private int mode;
         private ArrayList theTimes;
 
         private int wordIndex;
@@ -27,8 +31,8 @@ namespace memoriseWords
         {
             theInterface = newInterface;
             theVocabulary = new vocabulary();
-            sr = new StreamReader("c:\\temp\\WordBank.txt");
-
+            //sr = new StreamReader("c:\\temp\\WordBank.txt");
+            mode = -1;
             wordIndex = -1;
         }
 
@@ -38,6 +42,10 @@ namespace memoriseWords
             theTimes = new ArrayList();
         }
 
+        public void setMode(int newMode)
+        {
+            mode = newMode;
+        }
         public void addStudentPassTimes()
         {
             int oldValue = theStudent.getTimes(wordIndex);
@@ -46,40 +54,34 @@ namespace memoriseWords
             //theTimes.Add(newValue);
         }
 
-        public string readWord()
+        public string getWord()
         {
-            try
+            word = theVocabulary.readWord();
+
+            if (word != null)
             {
-                word = sr.ReadLine();
-
-                if (word != null)
-                {
-                    theVocabulary.setWord(word);
-                    meaning = sr.ReadLine();
-                    //theVocabulary.setSolution(solution);
-                    wordIndex++;
-                }
-                else
-                {
-                    word = null;
-                    theStudent.writeTimesToFile();
-                }
-
+                //theVocabulary.setWord(word);
+                //meaning = sr.ReadLine();
+                //theVocabulary.setSolution(solution);
+                wordIndex++;
             }
-
-            catch (IOException)
-
+            else
             {
-
-                Console.Write("Exception caught while reading the questions file");
-
+                word = null;
+                meaning = null;
+                theStudent.writeTimesToFile();
+                if(mode == 0)
+                    MessageBox.Show("study finished", "Success");
+                else if(mode == 1)
+                    MessageBox.Show("test finished", "Success");
             }
-
+            
             return word;
         }
 
-        public string readMeaning()
+        public string getMeaning()
         {
+            meaning = theVocabulary.getMeaning();
             return meaning;
         }
 

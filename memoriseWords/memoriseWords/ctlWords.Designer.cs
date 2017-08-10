@@ -34,18 +34,20 @@
             this.textMeaning = new System.Windows.Forms.TextBox();
             this.btnSuccess = new System.Windows.Forms.Button();
             this.butFail = new System.Windows.Forms.Button();
+            this.ModeComboBox = new System.Windows.Forms.ComboBox();
+            this.accountComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // textWord
             // 
-            this.textWord.Location = new System.Drawing.Point(42, 82);
+            this.textWord.Location = new System.Drawing.Point(42, 93);
             this.textWord.Name = "textWord";
             this.textWord.Size = new System.Drawing.Size(100, 20);
             this.textWord.TabIndex = 0;
             // 
             // butShowWord
             // 
-            this.butShowWord.Location = new System.Drawing.Point(42, 43);
+            this.butShowWord.Location = new System.Drawing.Point(42, 64);
             this.butShowWord.Name = "butShowWord";
             this.butShowWord.Size = new System.Drawing.Size(75, 23);
             this.butShowWord.TabIndex = 1;
@@ -55,7 +57,7 @@
             // 
             // butShowMeaning
             // 
-            this.butShowMeaning.Location = new System.Drawing.Point(42, 127);
+            this.butShowMeaning.Location = new System.Drawing.Point(42, 164);
             this.butShowMeaning.Name = "butShowMeaning";
             this.butShowMeaning.Size = new System.Drawing.Size(139, 23);
             this.butShowMeaning.TabIndex = 2;
@@ -65,7 +67,7 @@
             // 
             // textMeaning
             // 
-            this.textMeaning.Location = new System.Drawing.Point(42, 175);
+            this.textMeaning.Location = new System.Drawing.Point(42, 193);
             this.textMeaning.Name = "textMeaning";
             this.textMeaning.Size = new System.Drawing.Size(100, 20);
             this.textMeaning.TabIndex = 3;
@@ -89,10 +91,36 @@
             this.butFail.Text = "fail";
             this.butFail.UseVisualStyleBackColor = true;
             // 
+            // ModeComboBox
+            // 
+            this.ModeComboBox.FormattingEnabled = true;
+            this.ModeComboBox.Items.AddRange(new object[] {
+            "study mode",
+            "test mode"});
+            this.ModeComboBox.Location = new System.Drawing.Point(208, 19);
+            this.ModeComboBox.Name = "ModeComboBox";
+            this.ModeComboBox.Size = new System.Drawing.Size(121, 21);
+            this.ModeComboBox.TabIndex = 6;
+            this.ModeComboBox.SelectedIndexChanged += new System.EventHandler(this.ModeComboBox_SelectedIndexChanged);
+            // 
+            // accountComboBox
+            // 
+            this.accountComboBox.FormattingEnabled = true;
+            this.accountComboBox.Items.AddRange(new object[] {
+            "teacher",
+            "student"});
+            this.accountComboBox.Location = new System.Drawing.Point(42, 19);
+            this.accountComboBox.Name = "accountComboBox";
+            this.accountComboBox.Size = new System.Drawing.Size(121, 21);
+            this.accountComboBox.TabIndex = 7;
+            this.accountComboBox.SelectedIndexChanged += new System.EventHandler(this.accountComboBox_SelectedIndexChanged);
+            // 
             // ctlWords
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.accountComboBox);
+            this.Controls.Add(this.ModeComboBox);
             this.Controls.Add(this.butFail);
             this.Controls.Add(this.btnSuccess);
             this.Controls.Add(this.textMeaning);
@@ -114,5 +142,7 @@
         private System.Windows.Forms.TextBox textMeaning;
         private System.Windows.Forms.Button btnSuccess;
         private System.Windows.Forms.Button butFail;
+        private System.Windows.Forms.ComboBox ModeComboBox;
+        private System.Windows.Forms.ComboBox accountComboBox;
     }
 }
