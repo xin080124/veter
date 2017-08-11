@@ -40,6 +40,8 @@
             this.labelWord = new System.Windows.Forms.Label();
             this.labelMeaning = new System.Windows.Forms.Label();
             this.butSave = new System.Windows.Forms.Button();
+            this.textName = new System.Windows.Forms.TextBox();
+            this.labelName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textWord
@@ -71,14 +73,14 @@
             // 
             // textMeaning
             // 
-            this.textMeaning.Location = new System.Drawing.Point(81, 168);
+            this.textMeaning.Location = new System.Drawing.Point(77, 181);
             this.textMeaning.Name = "textMeaning";
-            this.textMeaning.Size = new System.Drawing.Size(100, 20);
+            this.textMeaning.Size = new System.Drawing.Size(143, 20);
             this.textMeaning.TabIndex = 3;
             // 
             // btnSuccess
             // 
-            this.btnSuccess.Location = new System.Drawing.Point(42, 243);
+            this.btnSuccess.Location = new System.Drawing.Point(42, 258);
             this.btnSuccess.Name = "btnSuccess";
             this.btnSuccess.Size = new System.Drawing.Size(75, 23);
             this.btnSuccess.TabIndex = 4;
@@ -88,12 +90,13 @@
             // 
             // butFail
             // 
-            this.butFail.Location = new System.Drawing.Point(133, 243);
+            this.butFail.Location = new System.Drawing.Point(133, 258);
             this.butFail.Name = "butFail";
             this.butFail.Size = new System.Drawing.Size(75, 23);
             this.butFail.TabIndex = 5;
             this.butFail.Text = "fail";
             this.butFail.UseVisualStyleBackColor = true;
+            this.butFail.Click += new System.EventHandler(this.butFail_Click);
             // 
             // ModeComboBox
             // 
@@ -101,7 +104,7 @@
             this.ModeComboBox.Items.AddRange(new object[] {
             "study mode",
             "test mode"});
-            this.ModeComboBox.Location = new System.Drawing.Point(208, 19);
+            this.ModeComboBox.Location = new System.Drawing.Point(239, 54);
             this.ModeComboBox.Name = "ModeComboBox";
             this.ModeComboBox.Size = new System.Drawing.Size(121, 21);
             this.ModeComboBox.TabIndex = 6;
@@ -121,7 +124,7 @@
             // 
             // butAdd
             // 
-            this.butAdd.Location = new System.Drawing.Point(42, 204);
+            this.butAdd.Location = new System.Drawing.Point(42, 220);
             this.butAdd.Name = "butAdd";
             this.butAdd.Size = new System.Drawing.Size(75, 23);
             this.butAdd.TabIndex = 8;
@@ -141,7 +144,7 @@
             // labelMeaning
             // 
             this.labelMeaning.AutoSize = true;
-            this.labelMeaning.Location = new System.Drawing.Point(24, 171);
+            this.labelMeaning.Location = new System.Drawing.Point(24, 184);
             this.labelMeaning.Name = "labelMeaning";
             this.labelMeaning.Size = new System.Drawing.Size(47, 13);
             this.labelMeaning.TabIndex = 10;
@@ -149,7 +152,7 @@
             // 
             // butSave
             // 
-            this.butSave.Location = new System.Drawing.Point(133, 204);
+            this.butSave.Location = new System.Drawing.Point(133, 220);
             this.butSave.Name = "butSave";
             this.butSave.Size = new System.Drawing.Size(75, 23);
             this.butSave.TabIndex = 11;
@@ -157,10 +160,28 @@
             this.butSave.UseVisualStyleBackColor = true;
             this.butSave.Click += new System.EventHandler(this.butSave_Click);
             // 
+            // textName
+            // 
+            this.textName.Location = new System.Drawing.Point(260, 19);
+            this.textName.Name = "textName";
+            this.textName.Size = new System.Drawing.Size(100, 20);
+            this.textName.TabIndex = 12;
+            // 
+            // labelName
+            // 
+            this.labelName.AutoSize = true;
+            this.labelName.Location = new System.Drawing.Point(219, 22);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(35, 13);
+            this.labelName.TabIndex = 13;
+            this.labelName.Text = "Name";
+            // 
             // ctlWords
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.labelName);
+            this.Controls.Add(this.textName);
             this.Controls.Add(this.butSave);
             this.Controls.Add(this.labelMeaning);
             this.Controls.Add(this.labelWord);
@@ -194,5 +215,7 @@
         private System.Windows.Forms.Label labelWord;
         private System.Windows.Forms.Label labelMeaning;
         private System.Windows.Forms.Button butSave;
+        private System.Windows.Forms.TextBox textName;
+        private System.Windows.Forms.Label labelName;
     }
 }

@@ -11,10 +11,11 @@ namespace memoriseWords
 {
     class vocabulary
     {
-        protected string word;
-        protected string meaning;
+        protected string currentWord;
+        protected string currentMeaning;
         private StreamReader sr;
         private StreamWriter sw;
+        private int currentIndex;
 
         private ArrayList theWordsList;
 
@@ -32,6 +33,8 @@ namespace memoriseWords
 
             sr.Close();
             sr = null;
+
+            currentIndex = 0;
         }
     
         public  void addWord(string wordLine)
@@ -41,38 +44,19 @@ namespace memoriseWords
 
         public string readWord()
         {
-            try
+            string word = "";
+            
+            if (currentIndex < theWordsList.Count)
             {
-                word = sr.ReadLine();
-
-                if (word != null)
-                {
-                    //theVocabulary.setWord(word);
-                    meaning = sr.ReadLine();
-                    //theVocabulary.setSolution(solution);
-                    //wordIndex++;
-                }
-                else
-                {
-                    word = null;
-                    meaning = null;
-                    /*theStudent.writeTimesToFile();
-                    if (mode == 0)
-                        MessageBox.Show("study finished", "Success");
-                    else if (mode == 1)
-                        MessageBox.Show("test finished", "Success");
-                */
-                    sr.Close();
-                    //sr = new StreamReader("c:\\temp\\WordBank.txt");
-                }
-
+                Wordline wl = (Wordline)theWordsList[currentIndex];
+                word = wl.getWord();
+                currentMeaning = wl.getMeaning();
+                currentIndex++;
             }
-
-            catch (IOException)
+            else
             {
-                Console.Write("Exception caught while reading the questions file");
+                word = null;
             }
-
             return word;
         }
 
@@ -97,7 +81,7 @@ namespace memoriseWords
 
         public void setWord(string wordFromFile)
         {
-            word = wordFromFile;
+            currentWord = wordFromFile;
         }
 
         public void append(string newWord, string newMeaning)
@@ -113,7 +97,12 @@ namespace memoriseWords
 
         public string getMeaning()
         {
-            return meaning;
+            return currentMeaning;
+        }
+
+        public int getWordIndex()
+        {
+            return currentIndex;
         }
 
     }

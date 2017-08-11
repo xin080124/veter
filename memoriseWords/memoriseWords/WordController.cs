@@ -20,7 +20,7 @@ namespace memoriseWords
         private int mode;
         private ArrayList theTimes;
 
-        private int wordIndex;
+        //private int wordIndex;
         
         private string word;
         private string meaning;
@@ -33,7 +33,7 @@ namespace memoriseWords
             theVocabulary = new vocabulary();
             
             mode = -1;
-            wordIndex = -1;
+            //wordIndex = -1;
         }
 
         public void setStudent(Student currentStudent)
@@ -46,11 +46,21 @@ namespace memoriseWords
         {
             mode = newMode;
         }
+
         public void addStudentPassTimes()
         {
+            int wordIndex = theVocabulary.getWordIndex()-1;
             int oldValue = theStudent.getTimes(wordIndex);
             int newValue = oldValue + 1;
             theStudent.setTimes(wordIndex,newValue);
+            //theTimes.Add(newValue);
+        }
+
+        public void resetStudentPassTimes()
+        {
+            int wordIndex = theVocabulary.getWordIndex()-1;
+            int newValue = 0;
+            theStudent.setTimes(wordIndex, newValue);
             //theTimes.Add(newValue);
         }
 
@@ -63,26 +73,35 @@ namespace memoriseWords
         {
             theVocabulary.saveWordsList();
         }
+
         public string getWord()
         {
+            //hide the words the student is already familiar with
+            int nextIndex = theVocabulary.getWordIndex();
+            while(theStudent.getTimes(nextIndex)>2)
+            {
+                word = theVocabulary.readWord();
+                nextIndex = theVocabulary.getWordIndex();
+            }
             word = theVocabulary.readWord();
 
             if (word != null)
             {
-                //theVocabulary.setWord(word);
-                //meaning = sr.ReadLine();
-                //theVocabulary.setSolution(solution);
-                wordIndex++;
+                //wordIndex++;
             }
             else
             {
                 word = null;
                 meaning = null;
-                theStudent.writeTimesToFile();
+                
                 if(mode == 0)
                     MessageBox.Show("study finished", "Success");
                 else if(mode == 1)
+                {
+                    theStudent.writeTimesToFile();
                     MessageBox.Show("test finished", "Success");
+                }
+                    
             }
             
             return word;

@@ -29,6 +29,16 @@ namespace memoriseWords
         public void getTimesFromFile()
         {
             string timePath = "c:\\temp\\" + name + ".txt";
+
+            if (File.Exists(timePath))
+            {
+
+            }
+            else
+            {
+                File.Create(timePath).Close();
+            }
+
             sr = new StreamReader(timePath);
 
             string line;
@@ -37,6 +47,7 @@ namespace memoriseWords
                 int time = int.Parse(line);
                 theTimes.Add(time);
             }
+            
             sr.Close();
         }
 
@@ -68,6 +79,14 @@ namespace memoriseWords
             //int times = 0;
             if (index < size)
                 theTimes[index] = times;
+            else
+            {
+                if(times>0)
+                    theTimes.Add(1);
+                else
+                    theTimes.Add(0);
+            }
+                
         }
 
         public int getTimes(int index)

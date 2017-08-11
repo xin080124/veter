@@ -24,9 +24,12 @@ namespace memoriseWords
             textWord.Visible = false;
             textMeaning.Visible = false;
 
+            butAdd.Visible = false;
+            butSave.Visible = false;
+
             theController = new WordController(this);
-            Student Tom = new Student("Tom");
-            theController.setStudent(Tom);
+            //Student Tom = new Student("Tom");
+            //theController.setStudent(Tom);
         }
 
         private void butShowWord_Click(object sender, EventArgs e)
@@ -47,19 +50,32 @@ namespace memoriseWords
         private void butShowMeaning_Click(object sender, EventArgs e)
         {
             textMeaning.Text = theController.getMeaning();
-            butShowWord.Enabled = true;
             butShowMeaning.Enabled = false;
+            btnSuccess.Enabled = true;
+            butFail.Enabled = true;
         }
 
         private void btnSuccess_Click(object sender, EventArgs e)
         {
             theController.addStudentPassTimes();
+            butShowWord.Enabled = true;
+            btnSuccess.Enabled = false;
+            butFail.Enabled = false;
+        }
+
+        private void butFail_Click(object sender, EventArgs e)
+        {
+            theController.resetStudentPassTimes();
+            butShowWord.Enabled = true;
+            btnSuccess.Enabled = false;
+            butFail.Enabled = false;
         }
 
         private void ModeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             int mode = ModeComboBox.SelectedIndex;
             theController.setMode(mode);
+            
 
             if (ModeComboBox.SelectedIndex == 0)
             {
@@ -74,12 +90,17 @@ namespace memoriseWords
                 butShowMeaning.Visible = true;
                 textWord.Visible = true;
                 textMeaning.Visible = true;
+
+                string studentName = textName.Text;
+                Student s = new Student(studentName);
+                theController.setStudent(s);
             }
 
         }
 
         private void accountComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            accountComboBox.Enabled = false;
             if(accountComboBox.SelectedIndex == 0)
             {
                 int mode = 2;
@@ -114,5 +135,7 @@ namespace memoriseWords
         {
             theController.saveNewWords();
         }
+
+
     }
 }
