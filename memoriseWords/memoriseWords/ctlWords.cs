@@ -89,6 +89,9 @@ namespace memoriseWords
                 butShowMeaning.Visible = false;
                 textWord.Visible = true;
                 textMeaning.Visible = true;
+
+                btnSuccess.Visible = false;
+                butFail.Visible = false;
             }
             else if(accountComboBox.SelectedIndex == 1)
             {
@@ -98,6 +101,18 @@ namespace memoriseWords
                 textMeaning.Visible = false;
             }
             
+        }
+
+        private void butAdd_Click(object sender, EventArgs e)
+        {
+            string newWord = textWord.Text;
+            string newMeaning = textMeaning.Text;
+            theController.addNewWord(newWord, newMeaning);
+        }
+
+        private void butSave_Click(object sender, EventArgs e)
+        {
+            theController.saveNewWords();
         }
     }
 }

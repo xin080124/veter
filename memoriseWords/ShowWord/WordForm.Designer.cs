@@ -35,7 +35,7 @@
             // 
             this.ctlWords1.Location = new System.Drawing.Point(54, 29);
             this.ctlWords1.Name = "ctlWords1";
-            this.ctlWords1.Size = new System.Drawing.Size(263, 315);
+            this.ctlWords1.Size = new System.Drawing.Size(400, 315);
             this.ctlWords1.TabIndex = 0;
             // 
             // WordForm

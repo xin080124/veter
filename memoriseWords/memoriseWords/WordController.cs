@@ -31,7 +31,7 @@ namespace memoriseWords
         {
             theInterface = newInterface;
             theVocabulary = new vocabulary();
-            //sr = new StreamReader("c:\\temp\\WordBank.txt");
+            
             mode = -1;
             wordIndex = -1;
         }
@@ -54,6 +54,15 @@ namespace memoriseWords
             //theTimes.Add(newValue);
         }
 
+        public void addNewWord(string newWord, string newMeaning)
+        {
+            theVocabulary.append(newWord, newMeaning);
+        }
+
+        public void saveNewWords()
+        {
+            theVocabulary.saveWordsList();
+        }
         public string getWord()
         {
             word = theVocabulary.readWord();

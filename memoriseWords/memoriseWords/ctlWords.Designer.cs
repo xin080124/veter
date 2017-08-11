@@ -36,18 +36,22 @@
             this.butFail = new System.Windows.Forms.Button();
             this.ModeComboBox = new System.Windows.Forms.ComboBox();
             this.accountComboBox = new System.Windows.Forms.ComboBox();
+            this.butAdd = new System.Windows.Forms.Button();
+            this.labelWord = new System.Windows.Forms.Label();
+            this.labelMeaning = new System.Windows.Forms.Label();
+            this.butSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textWord
             // 
-            this.textWord.Location = new System.Drawing.Point(42, 93);
+            this.textWord.Location = new System.Drawing.Point(81, 93);
             this.textWord.Name = "textWord";
             this.textWord.Size = new System.Drawing.Size(100, 20);
             this.textWord.TabIndex = 0;
             // 
             // butShowWord
             // 
-            this.butShowWord.Location = new System.Drawing.Point(42, 64);
+            this.butShowWord.Location = new System.Drawing.Point(81, 64);
             this.butShowWord.Name = "butShowWord";
             this.butShowWord.Size = new System.Drawing.Size(75, 23);
             this.butShowWord.TabIndex = 1;
@@ -57,7 +61,7 @@
             // 
             // butShowMeaning
             // 
-            this.butShowMeaning.Location = new System.Drawing.Point(42, 164);
+            this.butShowMeaning.Location = new System.Drawing.Point(81, 139);
             this.butShowMeaning.Name = "butShowMeaning";
             this.butShowMeaning.Size = new System.Drawing.Size(139, 23);
             this.butShowMeaning.TabIndex = 2;
@@ -67,7 +71,7 @@
             // 
             // textMeaning
             // 
-            this.textMeaning.Location = new System.Drawing.Point(42, 193);
+            this.textMeaning.Location = new System.Drawing.Point(81, 168);
             this.textMeaning.Name = "textMeaning";
             this.textMeaning.Size = new System.Drawing.Size(100, 20);
             this.textMeaning.TabIndex = 3;
@@ -84,7 +88,7 @@
             // 
             // butFail
             // 
-            this.butFail.Location = new System.Drawing.Point(194, 243);
+            this.butFail.Location = new System.Drawing.Point(133, 243);
             this.butFail.Name = "butFail";
             this.butFail.Size = new System.Drawing.Size(75, 23);
             this.butFail.TabIndex = 5;
@@ -115,10 +119,52 @@
             this.accountComboBox.TabIndex = 7;
             this.accountComboBox.SelectedIndexChanged += new System.EventHandler(this.accountComboBox_SelectedIndexChanged);
             // 
+            // butAdd
+            // 
+            this.butAdd.Location = new System.Drawing.Point(42, 204);
+            this.butAdd.Name = "butAdd";
+            this.butAdd.Size = new System.Drawing.Size(75, 23);
+            this.butAdd.TabIndex = 8;
+            this.butAdd.Text = "Add";
+            this.butAdd.UseVisualStyleBackColor = true;
+            this.butAdd.Click += new System.EventHandler(this.butAdd_Click);
+            // 
+            // labelWord
+            // 
+            this.labelWord.AutoSize = true;
+            this.labelWord.Location = new System.Drawing.Point(39, 100);
+            this.labelWord.Name = "labelWord";
+            this.labelWord.Size = new System.Drawing.Size(30, 13);
+            this.labelWord.TabIndex = 9;
+            this.labelWord.Text = "word";
+            // 
+            // labelMeaning
+            // 
+            this.labelMeaning.AutoSize = true;
+            this.labelMeaning.Location = new System.Drawing.Point(24, 171);
+            this.labelMeaning.Name = "labelMeaning";
+            this.labelMeaning.Size = new System.Drawing.Size(47, 13);
+            this.labelMeaning.TabIndex = 10;
+            this.labelMeaning.Text = "meaning";
+            // 
+            // butSave
+            // 
+            this.butSave.Location = new System.Drawing.Point(133, 204);
+            this.butSave.Name = "butSave";
+            this.butSave.Size = new System.Drawing.Size(75, 23);
+            this.butSave.TabIndex = 11;
+            this.butSave.Text = "save";
+            this.butSave.UseVisualStyleBackColor = true;
+            this.butSave.Click += new System.EventHandler(this.butSave_Click);
+            // 
             // ctlWords
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.butSave);
+            this.Controls.Add(this.labelMeaning);
+            this.Controls.Add(this.labelWord);
+            this.Controls.Add(this.butAdd);
             this.Controls.Add(this.accountComboBox);
             this.Controls.Add(this.ModeComboBox);
             this.Controls.Add(this.butFail);
@@ -144,5 +190,9 @@
         private System.Windows.Forms.Button butFail;
         private System.Windows.Forms.ComboBox ModeComboBox;
         private System.Windows.Forms.ComboBox accountComboBox;
+        private System.Windows.Forms.Button butAdd;
+        private System.Windows.Forms.Label labelWord;
+        private System.Windows.Forms.Label labelMeaning;
+        private System.Windows.Forms.Button butSave;
     }
 }
