@@ -1,3 +1,4 @@
 concent;permission to do something;0
 inherit;obtain from someone after their death;0
-trivial;(informal)small and of little importance;0 
+trivial;(informal)small and of little importance;0
+sdfgsdfg;1111;0
