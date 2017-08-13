@@ -83,6 +83,9 @@ namespace memoriseWords
                 butShowMeaning.Visible = false;
                 textWord.Visible = true;
                 textMeaning.Visible = true;
+
+                btnSuccess.Visible = false;
+                butFail.Visible = false;
             }    
             else
             {

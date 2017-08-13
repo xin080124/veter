@@ -77,12 +77,17 @@ namespace memoriseWords
         public string getWord()
         {
             //hide the words the student is already familiar with
-            int nextIndex = theVocabulary.getWordIndex();
-            while(theStudent.getTimes(nextIndex)>2)
+
+            if(mode == 1)
             {
-                word = theVocabulary.readWord();
-                nextIndex = theVocabulary.getWordIndex();
+                int nextIndex = theVocabulary.getWordIndex();
+                while (theStudent.getTimes(nextIndex) > 2)
+                {
+                    word = theVocabulary.readWord();
+                    nextIndex = theVocabulary.getWordIndex();
+                }
             }
+            
             word = theVocabulary.readWord();
 
             if (word != null)
