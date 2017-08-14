@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LockedThread">
+</Property><Property Name="Solution File" Value="C:\TEMP\Threads\LockedThread\LockedThread.sln">
+</Property><Property Name="User Options File" Value="C:\TEMP\Threads\LockedThread\LockedThread.suo">
+</Property><Property Name="Date" Value="Thursday, 16 October 2008">
+</Property><Property Name="Time" Value="17:36 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LockedThread.sln" Description="File successfully backed up as C:\TEMP\Threads\LockedThread\Backup\LockedThread.sln">
+</Event><Event ErrorLevel="0" Project="" Source="LockedThread.suo" Description="File successfully backed up as C:\TEMP\Threads\LockedThread\Backup\LockedThread.suo">
+</Event><Event ErrorLevel="0" Project="LockedThread" Source="LockedThread.csproj" Description="Project file successfully backed up as C:\TEMP\Threads\LockedThread\Backup\LockedThread.csproj">
+</Event><Event ErrorLevel="0" Project="LockedThread" Source="LockedThread.csproj.user" Description="Project user file successfully backed up as C:\TEMP\Threads\LockedThread\Backup\LockedThread.csproj.user">
+</Event><Event ErrorLevel="0" Project="LockedThread" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\TEMP\Threads\LockedThread\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="LockedThread" Source="Class1.cs" Description="File successfully backed up as C:\TEMP\Threads\LockedThread\Backup\Class1.cs">
+</Event><Event ErrorLevel="0" Project="LockedThread" Source="App.ico" Description="File successfully backed up as C:\TEMP\Threads\LockedThread\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="LockedThread" Source="LockedThread.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LockedThread" Source="LockedThread.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LockedThread.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LockedThread.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LockedThread" Source="LockedThread.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

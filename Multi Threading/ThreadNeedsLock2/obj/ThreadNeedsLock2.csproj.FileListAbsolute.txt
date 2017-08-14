@@ -1,0 +1,5 @@
+C:\TEMP\Threads\ThreadNeedsLock2\obj\Debug\ThreadNeedsLock2.exe
+C:\TEMP\Threads\ThreadNeedsLock2\obj\Debug\ThreadNeedsLock2.pdb
+C:\TEMP\Threads\ThreadNeedsLock2\bin\Debug\ThreadNeedsLock2.exe
+C:\TEMP\Threads\ThreadNeedsLock2\bin\Debug\ThreadNeedsLock2.pdb
+C:\TEMP\Threads\ThreadNeedsLock2\obj\Debug\ResolveAssemblyReference.cache

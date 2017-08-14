@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ThreadUsingObject">
+</Property><Property Name="Solution File" Value="C:\TEMP\Threads\ThreadUsingObject\ThreadUsingObject.sln">
+</Property><Property Name="Date" Value="Thursday, 16 October 2008">
+</Property><Property Name="Time" Value="17:35 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="ThreadUsingObject" Source="ThreadUsingObject.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ThreadUsingObject" Source="ThreadUsingObject.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ThreadUsingObject.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ThreadUsingObject.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ThreadUsingObject" Source="ThreadUsingObject.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

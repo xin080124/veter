@@ -1,0 +1,5 @@
+C:\TEMP\ThreadUsingObject\obj\Debug\ThreadUsingObject.exe
+C:\TEMP\ThreadUsingObject\obj\Debug\ThreadUsingObject.pdb
+C:\TEMP\ThreadUsingObject\bin\Debug\ThreadUsingObject.exe
+C:\TEMP\ThreadUsingObject\bin\Debug\ThreadUsingObject.pdb
+C:\TEMP\ThreadUsingObject\obj\Debug\ResolveAssemblyReference.cache

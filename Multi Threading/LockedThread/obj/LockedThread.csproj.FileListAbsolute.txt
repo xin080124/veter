@@ -1,0 +1,5 @@
+C:\TEMP\Threads\LockedThread\obj\Debug\LockedThread.exe
+C:\TEMP\Threads\LockedThread\obj\Debug\LockedThread.pdb
+C:\TEMP\Threads\LockedThread\bin\Debug\LockedThread.exe
+C:\TEMP\Threads\LockedThread\bin\Debug\LockedThread.pdb
+C:\TEMP\Threads\LockedThread\obj\Debug\ResolveAssemblyReference.cache

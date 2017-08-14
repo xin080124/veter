@@ -1,0 +1,5 @@
+C:\TEMP\Threads\InvokeCallback1\obj\Debug\InvokeCallback1.exe
+C:\TEMP\Threads\InvokeCallback1\obj\Debug\InvokeCallback1.pdb
+C:\TEMP\Threads\InvokeCallback1\bin\Debug\InvokeCallback1.exe
+C:\TEMP\Threads\InvokeCallback1\bin\Debug\InvokeCallback1.pdb
+C:\TEMP\Threads\InvokeCallback1\obj\Debug\ResolveAssemblyReference.cache

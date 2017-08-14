@@ -1,0 +1,7 @@
+C:\TEMP\WinFormMultitask1\obj\Debug\WinFormMultitask1.exe
+C:\TEMP\WinFormMultitask1\obj\Debug\WinFormMultitask1.pdb
+C:\TEMP\WinFormMultitask1\bin\Debug\WinFormMultitask1.exe
+C:\TEMP\WinFormMultitask1\bin\Debug\WinFormMultitask1.pdb
+C:\TEMP\WinFormMultitask1\obj\Debug\ResolveAssemblyReference.cache
+C:\TEMP\WinFormMultitask1\obj\Debug\WinFormMultitask1.Form1.resources
+C:\TEMP\WinFormMultitask1\obj\Debug\WinFormMultitask1.csproj.GenerateResource.Cache

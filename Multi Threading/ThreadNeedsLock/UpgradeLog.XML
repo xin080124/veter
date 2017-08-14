@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ThreadNeedsLock">
+</Property><Property Name="Solution File" Value="C:\TEMP\Threads\ThreadNeedsLock\ThreadNeedsLock.sln">
+</Property><Property Name="User Options File" Value="C:\TEMP\Threads\ThreadNeedsLock\ThreadNeedsLock.suo">
+</Property><Property Name="Date" Value="Thursday, 16 October 2008">
+</Property><Property Name="Time" Value="17:35 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ThreadNeedsLock.sln" Description="File successfully backed up as C:\TEMP\Threads\ThreadNeedsLock\Backup\ThreadNeedsLock.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ThreadNeedsLock.suo" Description="File successfully backed up as C:\TEMP\Threads\ThreadNeedsLock\Backup\ThreadNeedsLock.suo">
+</Event><Event ErrorLevel="0" Project="ThreadNeedsLock" Source="ThreadNeedsLock.csproj" Description="Project file successfully backed up as C:\TEMP\Threads\ThreadNeedsLock\Backup\ThreadNeedsLock.csproj">
+</Event><Event ErrorLevel="0" Project="ThreadNeedsLock" Source="ThreadNeedsLock.csproj.user" Description="Project user file successfully backed up as C:\TEMP\Threads\ThreadNeedsLock\Backup\ThreadNeedsLock.csproj.user">
+</Event><Event ErrorLevel="0" Project="ThreadNeedsLock" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\TEMP\Threads\ThreadNeedsLock\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ThreadNeedsLock" Source="Class1.cs" Description="File successfully backed up as C:\TEMP\Threads\ThreadNeedsLock\Backup\Class1.cs">
+</Event><Event ErrorLevel="0" Project="ThreadNeedsLock" Source="App.ico" Description="File successfully backed up as C:\TEMP\Threads\ThreadNeedsLock\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="ThreadNeedsLock" Source="ThreadNeedsLock.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ThreadNeedsLock" Source="ThreadNeedsLock.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ThreadNeedsLock.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ThreadNeedsLock.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ThreadNeedsLock" Source="ThreadNeedsLock.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ThreadConsole1">
+</Property><Property Name="Solution File" Value="C:\TEMP\Threads\ThreadConsole1\ThreadConsole1.sln">
+</Property><Property Name="Date" Value="Thursday, 16 October 2008">
+</Property><Property Name="Time" Value="17:34 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="ThreadConsole1" Source="ThreadConsole1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ThreadConsole1" Source="ThreadConsole1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ThreadConsole1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ThreadConsole1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ThreadConsole1" Source="ThreadConsole1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

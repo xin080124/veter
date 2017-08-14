@@ -1,0 +1,5 @@
+C:\TEMP\ThreadConsole1\obj\Debug\ThreadConsole1.exe
+C:\TEMP\ThreadConsole1\obj\Debug\ThreadConsole1.pdb
+C:\TEMP\ThreadConsole1\bin\Debug\ThreadConsole1.exe
+C:\TEMP\ThreadConsole1\bin\Debug\ThreadConsole1.pdb
+C:\TEMP\ThreadConsole1\obj\Debug\ResolveAssemblyReference.cache
