@@ -111,6 +111,10 @@ namespace memoriseWords
 
                 butShowWord.Visible = false;
                 butShowMeaning.Visible = false;
+
+                butAdd.Visible = true;
+                butSave.Visible = true;
+
                 textWord.Visible = true;
                 textMeaning.Visible = true;
 
@@ -139,6 +143,11 @@ namespace memoriseWords
             theController.saveNewWords();
         }
 
-
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            String reportStr = "";
+            reportStr = theController.generateReportString();
+            MessageBox.Show(reportStr, "Test report");
+        }
     }
 }

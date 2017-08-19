@@ -42,6 +42,7 @@
             this.butSave = new System.Windows.Forms.Button();
             this.textName = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
+            this.btnReport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textWord
@@ -63,7 +64,7 @@
             // 
             // butShowMeaning
             // 
-            this.butShowMeaning.Location = new System.Drawing.Point(81, 139);
+            this.butShowMeaning.Location = new System.Drawing.Point(81, 129);
             this.butShowMeaning.Name = "butShowMeaning";
             this.butShowMeaning.Size = new System.Drawing.Size(139, 23);
             this.butShowMeaning.TabIndex = 2;
@@ -73,9 +74,10 @@
             // 
             // textMeaning
             // 
-            this.textMeaning.Location = new System.Drawing.Point(77, 181);
+            this.textMeaning.Location = new System.Drawing.Point(77, 167);
+            this.textMeaning.Multiline = true;
             this.textMeaning.Name = "textMeaning";
-            this.textMeaning.Size = new System.Drawing.Size(143, 20);
+            this.textMeaning.Size = new System.Drawing.Size(143, 47);
             this.textMeaning.TabIndex = 3;
             // 
             // btnSuccess
@@ -144,7 +146,7 @@
             // labelMeaning
             // 
             this.labelMeaning.AutoSize = true;
-            this.labelMeaning.Location = new System.Drawing.Point(24, 184);
+            this.labelMeaning.Location = new System.Drawing.Point(24, 174);
             this.labelMeaning.Name = "labelMeaning";
             this.labelMeaning.Size = new System.Drawing.Size(47, 13);
             this.labelMeaning.TabIndex = 10;
@@ -176,10 +178,21 @@
             this.labelName.TabIndex = 13;
             this.labelName.Text = "Name";
             // 
+            // btnReport
+            // 
+            this.btnReport.Location = new System.Drawing.Point(285, 164);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(75, 23);
+            this.btnReport.TabIndex = 14;
+            this.btnReport.Text = "Report";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
+            // 
             // ctlWords
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnReport);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.textName);
             this.Controls.Add(this.butSave);
@@ -217,5 +230,6 @@
         private System.Windows.Forms.Button butSave;
         private System.Windows.Forms.TextBox textName;
         private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.Button btnReport;
     }
 }

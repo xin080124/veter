@@ -45,7 +45,9 @@ namespace memoriseWords
         public string readWord()
         {
             string word = "";
-            
+            currentMeaning = "";
+
+
             if (currentIndex < theWordsList.Count)
             {
                 Wordline wl = (Wordline)theWordsList[currentIndex];

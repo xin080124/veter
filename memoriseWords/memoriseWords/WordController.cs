@@ -20,8 +20,11 @@ namespace memoriseWords
         private int mode;
         private ArrayList theTimes;
 
+        private int successNum;
+        private int showedNum;
+
         //private int wordIndex;
-        
+
         private string word;
         private string meaning;
 
@@ -34,6 +37,8 @@ namespace memoriseWords
             
             mode = -1;
             //wordIndex = -1;
+            successNum = 0;
+            showedNum = 0;
         }
 
         public void setStudent(Student currentStudent)
@@ -54,6 +59,16 @@ namespace memoriseWords
             int newValue = oldValue + 1;
             theStudent.setTimes(wordIndex,newValue);
             //theTimes.Add(newValue);
+
+            successNum++;
+        }
+
+        public String generateReportString()
+        {
+            String reportStr = "";
+            reportStr += "Totally showed " + showedNum.ToString() + " words";
+            reportStr += "\n " + successNum.ToString() + " has been recalled successfully!";
+            return reportStr;
         }
 
         public void resetStudentPassTimes()
@@ -93,6 +108,7 @@ namespace memoriseWords
             if (word != null)
             {
                 //wordIndex++;
+                showedNum++;
             }
             else
             {
