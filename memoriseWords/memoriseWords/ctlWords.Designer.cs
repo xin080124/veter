@@ -43,6 +43,7 @@
             this.textName = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
             this.btnReport = new System.Windows.Forms.Button();
+            this.HintRole = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textWord
@@ -118,7 +119,7 @@
             this.accountComboBox.Items.AddRange(new object[] {
             "teacher",
             "student"});
-            this.accountComboBox.Location = new System.Drawing.Point(42, 19);
+            this.accountComboBox.Location = new System.Drawing.Point(42, 22);
             this.accountComboBox.Name = "accountComboBox";
             this.accountComboBox.Size = new System.Drawing.Size(121, 21);
             this.accountComboBox.TabIndex = 7;
@@ -188,10 +189,20 @@
             this.btnReport.UseVisualStyleBackColor = true;
             this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
+            // HintRole
+            // 
+            this.HintRole.AutoSize = true;
+            this.HintRole.Location = new System.Drawing.Point(15, 0);
+            this.HintRole.Name = "HintRole";
+            this.HintRole.Size = new System.Drawing.Size(99, 13);
+            this.HintRole.TabIndex = 15;
+            this.HintRole.Text = "Please select a role";
+            // 
             // ctlWords
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.HintRole);
             this.Controls.Add(this.btnReport);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.textName);
@@ -231,5 +242,6 @@
         private System.Windows.Forms.TextBox textName;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.Button btnReport;
+        private System.Windows.Forms.Label HintRole;
     }
 }

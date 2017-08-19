@@ -21,11 +21,24 @@ namespace memoriseWords
             butShowWord.Visible = false;
             butShowMeaning.Visible = false;
 
+            labelMeaning.Visible = false;
+            labelWord.Visible = false;
+
             textWord.Visible = false;
             textMeaning.Visible = false;
 
             butAdd.Visible = false;
             butSave.Visible = false;
+
+            btnSuccess.Visible = false;
+            butFail.Visible = false;
+
+            labelName.Visible = false;
+            textName.Visible = false;
+            ModeComboBox.Visible = false;
+
+            btnReport.Visible = false;
+
 
             theController = new WordController(this);
             //Student Tom = new Student("Tom");
@@ -94,6 +107,9 @@ namespace memoriseWords
                 textWord.Visible = true;
                 textMeaning.Visible = true;
 
+                btnSuccess.Visible = true;
+                butFail.Visible = true;
+                
                 string studentName = textName.Text;
                 Student s = new Student(studentName);
                 theController.setStudent(s);
@@ -115,6 +131,8 @@ namespace memoriseWords
                 butAdd.Visible = true;
                 butSave.Visible = true;
 
+                labelMeaning.Visible = true;
+                labelWord.Visible = true;
                 textWord.Visible = true;
                 textMeaning.Visible = true;
 
@@ -123,6 +141,10 @@ namespace memoriseWords
             }
             else if(accountComboBox.SelectedIndex == 1)
             {
+                labelName.Visible = true;
+                textName.Visible = true;
+                ModeComboBox.Visible = true;
+
                 butShowWord.Visible = false;
                 butShowMeaning.Visible = false;
                 textWord.Visible = false;
