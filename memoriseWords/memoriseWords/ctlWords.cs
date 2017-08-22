@@ -56,6 +56,11 @@ namespace memoriseWords
                 textMeaning.Text = "";
                 butShowWord.Enabled = false;
                 butShowMeaning.Enabled = true;
+
+                if(theController.ifEnd() == true)
+                {
+                    btnReport.Visible = true;
+                }
             }
                 
         }

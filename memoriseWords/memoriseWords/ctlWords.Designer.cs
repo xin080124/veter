@@ -117,8 +117,8 @@
             // 
             this.accountComboBox.FormattingEnabled = true;
             this.accountComboBox.Items.AddRange(new object[] {
-            "teacher",
-            "student"});
+            "add new words",
+            "use current vocabulary"});
             this.accountComboBox.Location = new System.Drawing.Point(42, 22);
             this.accountComboBox.Name = "accountComboBox";
             this.accountComboBox.Size = new System.Drawing.Size(121, 21);
@@ -194,9 +194,9 @@
             this.HintRole.AutoSize = true;
             this.HintRole.Location = new System.Drawing.Point(15, 0);
             this.HintRole.Name = "HintRole";
-            this.HintRole.Size = new System.Drawing.Size(99, 13);
+            this.HintRole.Size = new System.Drawing.Size(116, 13);
             this.HintRole.TabIndex = 15;
-            this.HintRole.Text = "Please select a role";
+            this.HintRole.Text = "please select an action";
             // 
             // ctlWords
             // 

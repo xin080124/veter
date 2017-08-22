@@ -29,6 +29,7 @@ namespace memoriseWords
         private string meaning;
 
         private StreamReader sr;
+        private bool toEnd;
 
         public WordController(ctlWords newInterface)
         {
@@ -39,6 +40,13 @@ namespace memoriseWords
             //wordIndex = -1;
             successNum = 0;
             showedNum = 0;
+
+            toEnd = false;
+        }
+
+        public bool ifEnd()
+        {
+            return toEnd;
         }
 
         public void setStudent(Student currentStudent)
@@ -119,6 +127,7 @@ namespace memoriseWords
                     MessageBox.Show("study finished", "Success");
                 else if(mode == 1)
                 {
+                    toEnd = true;
                     theStudent.writeTimesToFile();
                     MessageBox.Show("test finished", "Success");
                 }
@@ -133,10 +142,6 @@ namespace memoriseWords
             meaning = theVocabulary.getMeaning();
             return meaning;
         }
-
-
-
-
-
+        
     }
 }
