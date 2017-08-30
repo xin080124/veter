@@ -1,4 +1,5 @@
 concent;permission to do something;0
 inherit;obtain from someone after their death;0
 trivial;(informal)small and of little importance;0
-sdfgsdfg;1111;0
+narrative;a story or a description of a series of events;0
+overflow;When a liquid overflows, it flows over the edges of a container, etc. because there is too much of it;0

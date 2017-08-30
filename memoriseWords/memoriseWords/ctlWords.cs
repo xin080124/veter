@@ -88,6 +88,9 @@ namespace memoriseWords
             butShowWord.Enabled = true;
             btnSuccess.Enabled = false;
             butFail.Enabled = false;
+
+            textWord.Text = "";
+            textMeaning.Text = "";
         }
 
         ///<Summary> method : butFail_Click()
@@ -99,6 +102,9 @@ namespace memoriseWords
             butShowWord.Enabled = true;
             btnSuccess.Enabled = false;
             butFail.Enabled = false;
+
+            textWord.Text = "";
+            textMeaning.Text = "";
         }
 
         ///<Summary> method : ModeComboBox_SelectedIndexChanged()
@@ -134,6 +140,9 @@ namespace memoriseWords
                 Student s = new Student(studentName);
                 theController.setStudent(s);
             }
+
+            textWord.Enabled = false;
+            textMeaning.Enabled = false;
 
         }
 
@@ -184,6 +193,9 @@ namespace memoriseWords
             string newWord = textWord.Text;
             string newMeaning = textMeaning.Text;
             theController.addNewWord(newWord, newMeaning);
+            MessageBox.Show("Action done!", "success");
+            textWord.Text = "";
+            textMeaning.Text = "";
         }
 
         ///<Summary> method : butSave_Click()
@@ -192,6 +204,7 @@ namespace memoriseWords
         private void butSave_Click(object sender, EventArgs e)
         {
             theController.saveNewWords();
+            MessageBox.Show("Action done!", "success");
         }
 
         ///<Summary> method : btnReport_Click()
