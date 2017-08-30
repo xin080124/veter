@@ -17,6 +17,9 @@ namespace memoriseWords
         private string meaning;
         private int mark;
 
+        ///<Summary> method : Wordline()
+        //the constructor of Wordline
+        ///</Summary>
         public Wordline(string wordLine)
         {
             string[] ss = wordLine.Split(';');
@@ -34,17 +37,26 @@ namespace memoriseWords
             }
         }
 
+        ///<Summary> method : ToString()
+        //transform the Wordline object to string
+        ///</Summary>
         public string ToString()
         {
             string wordStr = word+";"+meaning+";"+mark.ToString();
             return wordStr;
         }
 
+        ///<Summary> method : getWord()
+        //get word from the current Wordline object 
+        ///</Summary>
         public string getWord()
         {
             return word;
         }
 
+        ///<Summary> method : getMeaning()
+        //get meaningfrom the current Wordline object 
+        ///</Summary>
         public string getMeaning()
         {
             return meaning;

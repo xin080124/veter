@@ -19,6 +19,9 @@ namespace memoriseWords
 
         private ArrayList theWordsList;
 
+        ///<Summary> method : vocabulary()
+        //the constructor of vocabulary
+        ///</Summary>
         public vocabulary()
         {
             sr = new StreamReader("c:\\temp\\WordBank0.txt");
@@ -36,12 +39,18 @@ namespace memoriseWords
 
             currentIndex = 0;
         }
-    
-        public  void addWord(string wordLine)
+
+        ///<Summary> method : addWord()
+        //uncompleted method for future use
+        ///</Summary>
+        public void addWord(string wordLine)
         {
             //sr = new StreamReader("c:\\temp\\WordBank.txt");
         }
 
+        ///<Summary> method : readWord()
+        //get word from theWordsList
+        ///</Summary>
         public string readWord()
         {
             string word = "";
@@ -62,11 +71,17 @@ namespace memoriseWords
             return word;
         }
 
+        ///<Summary> method : loadWordList()
+        //uncompleted method for future use
+        ///</Summary>
         public void loadWordList()
         {
 
         }
 
+        ///<Summary> method : saveWordsList()
+        //save the temporary Wordline ArrayList to persistent file
+        ///</Summary>
         public void saveWordsList()
         {
             sw = new StreamWriter("c:\\temp\\WordBank0.txt");
@@ -81,11 +96,17 @@ namespace memoriseWords
             sw.Close();
         }
 
+        ///<Summary> method : setWord()
+        //set the currentWord value with the given value
+        ///</Summary>
         public void setWord(string wordFromFile)
         {
             currentWord = wordFromFile;
         }
 
+        ///<Summary> method : append()
+        //create a new wordline object with the new word and append it to the theWordsList
+        ///</Summary>
         public void append(string newWord, string newMeaning)
         {
             //sw = new StreamWriter("c:\\temp\\WordBank.txt");
@@ -97,11 +118,17 @@ namespace memoriseWords
             theWordsList.Add(wl);
         }
 
+        ///<Summary> method : getMeaning()
+        //get the word's meaning from vocabulary
+        ///</Summary>
         public string getMeaning()
         {
             return currentMeaning;
         }
 
+        ///<Summary> method : getWordIndex()
+        //get the current word index in the vocabulary
+        ///</Summary>
         public int getWordIndex()
         {
             return currentIndex;

@@ -14,6 +14,9 @@ namespace memoriseWords
     {
         private WordController theController;
 
+        ///<Summary> method : ctlWords()
+        //the constructor of ctlWords
+        ///</Summary>
         public ctlWords()
         {
             InitializeComponent();
@@ -38,13 +41,13 @@ namespace memoriseWords
             ModeComboBox.Visible = false;
 
             btnReport.Visible = false;
-
-
+            
             theController = new WordController(this);
-            //Student Tom = new Student("Tom");
-            //theController.setStudent(Tom);
         }
 
+        ///<Summary> method : butShowWord_Click()
+        //the response of 'show word' button
+        ///</Summary>
         private void butShowWord_Click(object sender, EventArgs e)
         {
             //theController.readWord();
@@ -65,6 +68,9 @@ namespace memoriseWords
                 
         }
 
+        ///<Summary> method : butShowMeaning_Click()
+        //the response of 'show meaning' button
+        ///</Summary>
         private void butShowMeaning_Click(object sender, EventArgs e)
         {
             textMeaning.Text = theController.getMeaning();
@@ -73,6 +79,9 @@ namespace memoriseWords
             butFail.Enabled = true;
         }
 
+        ///<Summary> method : btnSuccess_Click()
+        //the response of 'success' button
+        ///</Summary>
         private void btnSuccess_Click(object sender, EventArgs e)
         {
             theController.addStudentPassTimes();
@@ -81,6 +90,9 @@ namespace memoriseWords
             butFail.Enabled = false;
         }
 
+        ///<Summary> method : butFail_Click()
+        //the response of 'fail' button
+        ///</Summary>
         private void butFail_Click(object sender, EventArgs e)
         {
             theController.resetStudentPassTimes();
@@ -89,6 +101,9 @@ namespace memoriseWords
             butFail.Enabled = false;
         }
 
+        ///<Summary> method : ModeComboBox_SelectedIndexChanged()
+        //the response of mode selector
+        ///</Summary>
         private void ModeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             int mode = ModeComboBox.SelectedIndex;
@@ -122,13 +137,16 @@ namespace memoriseWords
 
         }
 
+        ///<Summary> method : accountComboBox_SelectedIndexChanged()
+        //the response of action selector
+        ///</Summary>
         private void accountComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             accountComboBox.Enabled = false;
             if(accountComboBox.SelectedIndex == 0)
             {
                 int mode = 2;
-                theController.setMode(2);
+                theController.setMode(mode);
 
                 butShowWord.Visible = false;
                 butShowMeaning.Visible = false;
@@ -158,6 +176,9 @@ namespace memoriseWords
             
         }
 
+        ///<Summary> method : butAdd_Click()
+        //the response of 'add' button
+        ///</Summary>
         private void butAdd_Click(object sender, EventArgs e)
         {
             string newWord = textWord.Text;
@@ -165,11 +186,17 @@ namespace memoriseWords
             theController.addNewWord(newWord, newMeaning);
         }
 
+        ///<Summary> method : butSave_Click()
+        //the response of 'save' button
+        ///</Summary>
         private void butSave_Click(object sender, EventArgs e)
         {
             theController.saveNewWords();
         }
 
+        ///<Summary> method : btnReport_Click()
+        //the response of 'report' button
+        ///</Summary>
         private void btnReport_Click(object sender, EventArgs e)
         {
             String reportStr = "";

@@ -18,6 +18,9 @@ namespace memoriseWords
         private StreamReader sr;
         private string name;
 
+        ///<Summary> method : Student()
+        //the constructor of Student
+        ///</Summary>
         public Student(string studentFirstName)
         {
             passTimes = 0;
@@ -26,6 +29,9 @@ namespace memoriseWords
             getTimesFromFile();
         }
 
+        ///<Summary> method : getTimesFromFile()
+        //get marks of the words from the text file
+        ///</Summary>
         public void getTimesFromFile()
         {
             string timePath = "c:\\temp\\" + name + ".txt";
@@ -51,6 +57,9 @@ namespace memoriseWords
             sr.Close();
         }
 
+        ///<Summary> method : writeTimesToFile()
+        //save the marks for words to the text file
+        ///</Summary>
         public void writeTimesToFile()
         {
             int size = theTimes.Count;
@@ -72,7 +81,9 @@ namespace memoriseWords
             }
         }
 
-
+        ///<Summary> method : setTimes()
+        //set mark of the word of No.index
+        ///</Summary>
         public void setTimes(int index,int times)
         {
             int size = theTimes.Count;
@@ -89,6 +100,9 @@ namespace memoriseWords
                 
         }
 
+        ///<Summary> method : getTimes()
+        //get mark of the  word of No.index
+        ///</Summary>
         public int getTimes(int index)
         {
             int size = theTimes.Count;

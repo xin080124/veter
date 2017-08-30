@@ -31,6 +31,9 @@ namespace memoriseWords
         private StreamReader sr;
         private bool toEnd;
 
+        ///<Summary> method : ctlWords()
+        //the constructor of WordController
+        ///</Summary>
         public WordController(ctlWords newInterface)
         {
             theInterface = newInterface;
@@ -44,22 +47,34 @@ namespace memoriseWords
             toEnd = false;
         }
 
+        ///<Summary> method : ifEnd()
+        //check if the word list come to the end
+        ///</Summary>
         public bool ifEnd()
         {
             return toEnd;
         }
 
+        ///<Summary> method : setStudent()
+        //set value to theStudent member and initialize theTimes
+        ///</Summary>
         public void setStudent(Student currentStudent)
         {
             theStudent = currentStudent;
             theTimes = new ArrayList();
         }
 
+        ///<Summary> method : setMode()
+        //set study/test mode
+        ///</Summary>
         public void setMode(int newMode)
         {
             mode = newMode;
         }
 
+        ///<Summary> method : addStudentPassTimes()
+        //add one mark to the tested word
+        ///</Summary>
         public void addStudentPassTimes()
         {
             int wordIndex = theVocabulary.getWordIndex()-1;
@@ -71,6 +86,9 @@ namespace memoriseWords
             successNum++;
         }
 
+        ///<Summary> method : generateReportString()
+        //generate test result string for the report message box
+        ///</Summary>
         public String generateReportString()
         {
             String reportStr = "";
@@ -79,6 +97,9 @@ namespace memoriseWords
             return reportStr;
         }
 
+        ///<Summary> method : resetStudentPassTimes()
+        //set the new mark of the word to 0
+        ///</Summary>
         public void resetStudentPassTimes()
         {
             int wordIndex = theVocabulary.getWordIndex()-1;
@@ -87,16 +108,25 @@ namespace memoriseWords
             //theTimes.Add(newValue);
         }
 
+        ///<Summary> method : addNewWord()
+        //add new word to the temparory vocabulary object
+        ///</Summary>
         public void addNewWord(string newWord, string newMeaning)
         {
             theVocabulary.append(newWord, newMeaning);
         }
 
+        ///<Summary> method : saveNewWords()
+        //save the added words to the current vocabulary
+        ///</Summary>
         public void saveNewWords()
         {
             theVocabulary.saveWordsList();
         }
 
+        ///<Summary> method : getWord()
+        //get the next word with proper filter
+        ///</Summary>
         public string getWord()
         {
             //hide the words the student is already familiar with
@@ -137,6 +167,9 @@ namespace memoriseWords
             return word;
         }
 
+        ///<Summary> method : getMeaning()
+        //get the word's meaning from vocabulary
+        ///</Summary>
         public string getMeaning()
         {
             meaning = theVocabulary.getMeaning();
