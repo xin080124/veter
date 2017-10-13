@@ -1,0 +1,34 @@
+C:\Temp\MVC_basics\obj\Debug\MVC_basics.exe
+C:\Temp\MVC_basics\obj\Debug\MVC_basics.pdb
+C:\Temp\MVC_basics\bin\Debug\MVC_basics.exe
+C:\Temp\MVC_basics\bin\Debug\MVC_basics.pdb
+C:\Temp\MVC_basics\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\MVC_basics\obj\Debug\MVC_basics.Form1.resources
+C:\Temp\MVC_basics\obj\Debug\MVC_basics.View1.resources
+C:\Temp\MVC_basics\obj\Debug\MVC_basics.View2.resources
+C:\Temp\MVC_basics\obj\Debug\MVC_basics.csproj.GenerateResource.Cache
+S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.exe
+S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.pdb
+S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\bin\Debug\MVC_basics.exe
+S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\bin\Debug\MVC_basics.pdb
+S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.Form1.resources
+S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.View1.resources
+S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.View2.resources
+S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.csproj.GenerateResource.Cache
+G:\Simons S Drive\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.exe
+G:\Simons S Drive\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.pdb
+G:\Simons S Drive\7421_Advanced Programming\Week_09\Projects\MVC_basics\bin\Debug\MVC_basics.exe
+G:\Simons S Drive\7421_Advanced Programming\Week_09\Projects\MVC_basics\bin\Debug\MVC_basics.pdb
+G:\Simons S Drive\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.Form1.resources
+G:\Simons S Drive\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.View1.resources
+G:\Simons S Drive\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.View2.resources
+G:\Simons S Drive\7421_Advanced Programming\Week_09\Projects\MVC_basics\obj\Debug\MVC_basics.csproj.GenerateResource.Cache
+C:\Temp\MVC_basics\MVC_basics\bin\Debug\MVC_basics.exe
+C:\Temp\MVC_basics\MVC_basics\bin\Debug\MVC_basics.pdb
+C:\Temp\MVC_basics\MVC_basics\obj\Debug\MVC_basics.csprojResolveAssemblyReference.cache
+C:\Temp\MVC_basics\MVC_basics\obj\Debug\MVC_basics.Form1.resources
+C:\Temp\MVC_basics\MVC_basics\obj\Debug\MVC_basics.View1.resources
+C:\Temp\MVC_basics\MVC_basics\obj\Debug\MVC_basics.View2.resources
+C:\Temp\MVC_basics\MVC_basics\obj\Debug\MVC_basics.csproj.GenerateResource.Cache
+C:\Temp\MVC_basics\MVC_basics\obj\Debug\MVC_basics.exe
+C:\Temp\MVC_basics\MVC_basics\obj\Debug\MVC_basics.pdb

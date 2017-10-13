@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MVC_Shapes">
+</Property><Property Name="Solution File" Value="C:\Temp\Keaney, S\MVC_Shapes 20071103 Sinead\MVC_Shapes\MVC_Shapes.sln">
+</Property><Property Name="Date" Value="Monday, 6 September 2010">
+</Property><Property Name="Time" Value="12:14 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="MVC_Shapes" Source="MVC_Shapes.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MVC_Shapes" Source="MVC_Shapes.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MVC_Shapes.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MVC_Shapes.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="MVC_Shapes.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,10 @@
+C:\Temp\MVC_Shapes\obj\Debug\MVC_Shapes.exe
+C:\Temp\MVC_Shapes\obj\Debug\MVC_Shapes.pdb
+C:\Temp\MVC_Shapes\bin\Debug\MVC_Shapes.exe
+C:\Temp\MVC_Shapes\bin\Debug\MVC_Shapes.pdb
+C:\Temp\MVC_Shapes\obj\Debug\MVC_Shapes.Form1.resources
+C:\Temp\MVC_Shapes\obj\Debug\MVC_Shapes.ViewForm1.resources
+C:\Temp\MVC_Shapes\obj\Debug\MVC_Shapes.ViewForm2.resources
+C:\Temp\MVC_Shapes\obj\Debug\MVC_Shapes.ViewForm3.resources
+C:\Temp\MVC_Shapes\obj\Debug\MVC_Shapes.csproj.GenerateResource.Cache
+C:\Temp\MVC_Shapes\obj\Debug\MVC_Shapes.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Temp\MyConsoleMultiThread\MyConsoleMultiThread\bin\Debug\MyConsoleMultiThread.exe.config
+C:\Temp\MyConsoleMultiThread\MyConsoleMultiThread\bin\Debug\MyConsoleMultiThread.exe
+C:\Temp\MyConsoleMultiThread\MyConsoleMultiThread\bin\Debug\MyConsoleMultiThread.pdb
+C:\Temp\MyConsoleMultiThread\MyConsoleMultiThread\obj\Debug\MyConsoleMultiThread.exe
+C:\Temp\MyConsoleMultiThread\MyConsoleMultiThread\obj\Debug\MyConsoleMultiThread.pdb

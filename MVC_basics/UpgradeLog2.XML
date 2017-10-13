@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MVC_basics">
+</Property><Property Name="Solution File" Value="S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\MVC_basics.sln">
+</Property><Property Name="User Options File" Value="S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\MVC_basics.suo">
+</Property><Property Name="Date" Value="Friday, 19 September 2014">
+</Property><Property Name="Time" Value="13:05 p.m.">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MVC_basics.sln" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\MVC_basics.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MVC_basics.suo" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\MVC_basics.suo">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="MVC_basics.csproj" Description="Project file successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\MVC_basics.csproj">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="MVC_basics.csproj.user" Description="Project user file successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\MVC_basics.csproj.user">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="AssemblyInfo.cs" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="ControllerX.cs" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\ControllerX.cs">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="Form1.cs" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="ModelX.cs" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\ModelX.cs">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="View1.cs" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\View1.cs">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="View2.cs" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\View2.cs">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="App.ico" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="Form1.resx" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="View1.resx" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\View1.resx">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="View2.resx" Description="File successfully backed up as S:\7421_Advanced Programming\Week_09\Projects\MVC_basics\Backup\View2.resx">
+</Event><Event ErrorLevel="1" Project="MVC_basics" Source="MVC_basics.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="MVC_basics.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MVC_basics" Source="MVC_basics.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MVC_basics.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MVC_basics.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="MVC_basics.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

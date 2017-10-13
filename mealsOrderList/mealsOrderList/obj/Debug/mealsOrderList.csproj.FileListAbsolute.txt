@@ -1,0 +1,9 @@
+C:\Temp\mealsOrderList\mealsOrderList\bin\Debug\mealsOrderList.dll
+C:\Temp\mealsOrderList\mealsOrderList\bin\Debug\mealsOrderList.pdb
+C:\Temp\mealsOrderList\mealsOrderList\obj\Debug\mealsOrderList.csprojResolveAssemblyReference.cache
+C:\Temp\mealsOrderList\mealsOrderList\obj\Debug\mealsOrderList.viewControl.resources
+C:\Temp\mealsOrderList\mealsOrderList\obj\Debug\mealsOrderList.csproj.GenerateResource.Cache
+C:\Temp\mealsOrderList\mealsOrderList\obj\Debug\mealsOrderList.dll
+C:\Temp\mealsOrderList\mealsOrderList\obj\Debug\mealsOrderList.pdb
+C:\Temp\mealsOrderList\mealsOrderList\obj\Debug\mealsOrderList.View1.resources
+C:\Temp\mealsOrderList\mealsOrderList\obj\Debug\mealsOrderList.View2.resources

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MVC_basics">
+</Property><Property Name="Solution File" Value="C:\Temp\MVC_basics\MVC_basics.sln">
+</Property><Property Name="Date" Value="Monday, 6 September 2010">
+</Property><Property Name="Time" Value="11:35 a.m.">
+</Property></Properties><Event ErrorLevel="0" Project="MVC_basics" Source="MVC_basics.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MVC_basics" Source="MVC_basics.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MVC_basics.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MVC_basics.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MVC_basics" Source="MVC_basics.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

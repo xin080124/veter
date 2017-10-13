@@ -1,0 +1,11 @@
+C:\Temp\mealsOrderList\Test\bin\Debug\Test.exe.config
+C:\Temp\mealsOrderList\Test\bin\Debug\Test.exe
+C:\Temp\mealsOrderList\Test\bin\Debug\Test.pdb
+C:\Temp\mealsOrderList\Test\bin\Debug\mealsOrderList.dll
+C:\Temp\mealsOrderList\Test\bin\Debug\mealsOrderList.pdb
+C:\Temp\mealsOrderList\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Temp\mealsOrderList\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Temp\mealsOrderList\Test\obj\Debug\Test.TestForm.resources
+C:\Temp\mealsOrderList\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+C:\Temp\mealsOrderList\Test\obj\Debug\Test.exe
+C:\Temp\mealsOrderList\Test\obj\Debug\Test.pdb

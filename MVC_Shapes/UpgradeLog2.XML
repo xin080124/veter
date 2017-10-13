@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MVC_Shapes">
+</Property><Property Name="Solution File" Value="C:\Temp\MVC_Shapes\MVC_Shapes.sln">
+</Property><Property Name="User Options File" Value="C:\Temp\MVC_Shapes\MVC_Shapes.suo">
+</Property><Property Name="Date" Value="Wednesday, 25 May 2016">
+</Property><Property Name="Time" Value="12:20 p.m.">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MVC_Shapes.sln" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\MVC_Shapes.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MVC_Shapes.suo" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\MVC_Shapes.suo">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="MVC_Shapes.csproj" Description="Project file successfully backed up as C:\Temp\MVC_Shapes\Backup\MVC_Shapes.csproj">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="MVC_Shapes.csproj.user" Description="Project user file successfully backed up as C:\Temp\MVC_Shapes\Backup\MVC_Shapes.csproj.user">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="AnyCircle.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\AnyCircle.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="AnyElipse.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\AnyElipse.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="AnyRectangle.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\AnyRectangle.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="AnyShape.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\AnyShape.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="AnySquare.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\AnySquare.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="AnyTriangle.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\AnyTriangle.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="Form1.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="ShapesController.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\ShapesController.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="ShapesModel.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\ShapesModel.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="ViewForm1.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\ViewForm1.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="ViewForm2.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\ViewForm2.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="ViewForm3.cs" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\ViewForm3.cs">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="App.ico" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="Form1.resx" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="ViewForm1.resx" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\ViewForm1.resx">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="ViewForm2.resx" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\ViewForm2.resx">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="ViewForm3.resx" Description="File successfully backed up as C:\Temp\MVC_Shapes\Backup\ViewForm3.resx">
+</Event><Event ErrorLevel="1" Project="MVC_Shapes" Source="MVC_Shapes.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="MVC_Shapes.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MVC_Shapes" Source="MVC_Shapes.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MVC_Shapes.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MVC_Shapes.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MVC_Shapes" Source="MVC_Shapes.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
