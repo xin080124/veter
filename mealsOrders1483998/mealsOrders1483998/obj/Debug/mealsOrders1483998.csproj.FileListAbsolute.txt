@@ -1,0 +1,9 @@
+C:\Temp\mealsOrders1483998\mealsOrders1483998\bin\Debug\mealsOrders1483998.exe.config
+C:\Temp\mealsOrders1483998\mealsOrders1483998\bin\Debug\mealsOrders1483998.exe
+C:\Temp\mealsOrders1483998\mealsOrders1483998\bin\Debug\mealsOrders1483998.pdb
+C:\Temp\mealsOrders1483998\mealsOrders1483998\obj\Debug\mealsOrders1483998.csprojResolveAssemblyReference.cache
+C:\Temp\mealsOrders1483998\mealsOrders1483998\obj\Debug\mealsOrders1483998.Form1.resources
+C:\Temp\mealsOrders1483998\mealsOrders1483998\obj\Debug\mealsOrders1483998.Properties.Resources.resources
+C:\Temp\mealsOrders1483998\mealsOrders1483998\obj\Debug\mealsOrders1483998.csproj.GenerateResource.Cache
+C:\Temp\mealsOrders1483998\mealsOrders1483998\obj\Debug\mealsOrders1483998.exe
+C:\Temp\mealsOrders1483998\mealsOrders1483998\obj\Debug\mealsOrders1483998.pdb
