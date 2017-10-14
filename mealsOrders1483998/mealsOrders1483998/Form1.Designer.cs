@@ -42,6 +42,7 @@
             this.btnShowViews.Size = new System.Drawing.Size(136, 32);
             this.btnShowViews.TabIndex = 7;
             this.btnShowViews.Text = "Show Views";
+            this.btnShowViews.Click += new System.EventHandler(this.btnShowViews_Click);
             // 
             // btnMakeViews
             // 
@@ -51,6 +52,7 @@
             this.btnMakeViews.Size = new System.Drawing.Size(136, 32);
             this.btnMakeViews.TabIndex = 6;
             this.btnMakeViews.Text = "Make Views";
+            this.btnMakeViews.Click += new System.EventHandler(this.btnMakeViews_Click);
             // 
             // btnMakeModel
             // 
@@ -60,6 +62,7 @@
             this.btnMakeModel.Size = new System.Drawing.Size(136, 32);
             this.btnMakeModel.TabIndex = 5;
             this.btnMakeModel.Text = "Make Model";
+            this.btnMakeModel.Click += new System.EventHandler(this.btnMakeModel_Click);
             // 
             // btnMakeController
             // 
@@ -69,6 +72,7 @@
             this.btnMakeController.Size = new System.Drawing.Size(136, 32);
             this.btnMakeController.TabIndex = 4;
             this.btnMakeController.Text = "Make Controller";
+            this.btnMakeController.Click += new System.EventHandler(this.btnMakeController_Click);
             // 
             // Form1
             // 

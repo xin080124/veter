@@ -13,7 +13,7 @@ namespace mealsOrders1483998
         void RefreshView();
     }
 
-    class OrdersController
+    public class OrdersController
     {
         private ArrayList ViewList;
 
