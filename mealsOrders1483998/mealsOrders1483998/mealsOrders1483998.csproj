@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnyMeal.cs" />
+    <Compile Include="AnyNoodle.cs" />
     <Compile Include="AnyPizza.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

@@ -37,27 +37,17 @@ namespace mealsOrders1483998
 
             if (g != null)
             {
-                Brush br = new SolidBrush(System.Drawing.Color.Blue);
+                Color pizzaColor = System.Drawing.Color.Aqua;
+                if(flavor == "vegetable")
+                    pizzaColor = System.Drawing.Color.Green;
+                //else if (flavor == "seafood")
+                //    pizzaColor = System.Drawing.Color;
+                Brush br = new SolidBrush(pizzaColor);
                 //g.FillRectangle(br, x, y, shape_width, shape_width);
-                g.FillRectangle(br, x, y, 15, 15);
+                g.FillRectangle(br, x, y, 30, 30);
                 br.Dispose();
             }
-
-            //if (Highlight)
-            {
-                // add in border if shape selected
-                // to define point and size
-                Point pt = new Point(x + 1, y + 1); // to avoid shadow
-
-                int borderSide = shape_width - 3; // make slightly smaller than shape to avoid shadow
-                Size size = new Size(borderSide, borderSide);
-                // draw border
-                Pen p = new Pen(Color.Black, 3);
-                p.DashStyle = DashStyle.Solid;
-                g.DrawRectangle(p, new Rectangle(pt, size));
-
-                p.Dispose();
-            }
+            
         }
 
         public override int x_pos //non abstract property

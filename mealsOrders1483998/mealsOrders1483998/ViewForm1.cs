@@ -82,6 +82,11 @@ namespace mealsOrders1483998
                 myModel.AddMealOrder(aMeal);
 
             }
+            if (rbNoodle.Checked)
+            {
+                aMeal = new AnyNoodle(true, 5.99, 180, X, Y, false);
+                myModel.AddMealOrder(aMeal);
+            }
         }
 
         private void rbPizza_Click(object sender, EventArgs e)
