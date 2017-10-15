@@ -49,6 +49,9 @@ namespace mealsOrders1483998
 
         private void btnShowViews_Click(object sender, EventArgs e)
         {
+            myViewForm1.Show();
+            //myViewForm2.Show();
+            //myViewForm3.Show();
 
         }
     }

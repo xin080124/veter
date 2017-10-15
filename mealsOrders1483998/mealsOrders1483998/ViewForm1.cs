@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Collections;
+
 namespace mealsOrders1483998
 {
     public partial class ViewForm1 : System.Windows.Forms.Form, IOrderView
@@ -43,18 +45,41 @@ namespace mealsOrders1483998
 
         public void RefreshView()
         {
-            // clear drawOn panel
-            clearPanel();
-            // create arrayList from model and convert to array of shapes
-            //ArrayList theShapeList = myModel.ShapeList;
-            //AnyShape[] theShapes = (AnyShape[])theShapeList.ToArray(typeof(AnyShape));
+            // clear listBox
+            listBox1.Items.Clear();
+            // create arrayList from shapes in model
+            ArrayList theOrderList = myModel.OrderList;
+            //Convert arrayList to array of shapes
+            AnyMeal[] theMeals = (AnyMeal[])theOrderList.ToArray(typeof(AnyMeal));
+            // graphics object to draw shapes
             //Graphics g = this.pnlDrawOn.CreateGraphics();
-            // draw all shapes in array
-
-            //foreach (AnyShape sh in theShapes)
-            //{
-            //    sh.Display(g);
-            //}
+            // add each shape in the array to the listBox
+            foreach (AnyMeal am in theMeals)
+            {
+                listBox1.Items.Add(am);
+            }
         }
+
+        private void btnAddOrder_Click(object sender, EventArgs e)
+        {
+            AnyMeal aMeal;
+
+            if (rbPizza.Checked)
+            {
+                //aShape = new AnyCircle("circle", X, Y, Width, Height, aColor);
+                //myModel.AddShape(aShape);
+
+                aMeal = new AnyPizza(true, 5.99,180);
+                myModel.AddMealOrder(aMeal);
+
+            }
+        }
+
+        private void rbPizza_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
