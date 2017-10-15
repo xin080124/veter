@@ -40,18 +40,18 @@ namespace mealsOrders1483998
             myViewForm2 = new ViewForm2();
             myViewForm3 = new ViewForm3();
             myViewForm1.MyModel = theModel;
-            //myViewForm2.MyModel = theModel;
+            myViewForm2.MyModel = theModel;
             //myViewForm3.MyModel = theModel;
             theController.AddView(myViewForm1);
-            //theController.AddView(myViewForm2);
+            theController.AddView(myViewForm2);
             //theController.AddView(myViewForm3);
         }
 
         private void btnShowViews_Click(object sender, EventArgs e)
         {
             myViewForm1.Show();
-            //myViewForm2.Show();
-            //myViewForm3.Show();
+            myViewForm2.Show();
+            myViewForm3.Show();
 
         }
     }

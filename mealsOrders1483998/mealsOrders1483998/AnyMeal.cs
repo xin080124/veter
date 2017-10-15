@@ -19,11 +19,14 @@ namespace mealsOrders1483998
 
 
         // constructor
-        public AnyMeal(bool take_away, double meal_price, int due_time)
+        public AnyMeal(bool take_away, double meal_price, int due_time, int x_at, int y_at)
         {
             takeaway = take_away;
             price = meal_price;
             time = due_time;
+
+            x = x_at;
+            y = y_at;
         }
 
         public abstract void Display(Graphics g); // abstract method

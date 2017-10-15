@@ -22,6 +22,8 @@ namespace mealsOrders1483998
         public ViewForm1()
         {
             InitializeComponent();
+            txtXpos.Text = "10";
+            txtXpos.Text = "10";
         }
 
         // set method for myModel
@@ -63,13 +65,20 @@ namespace mealsOrders1483998
         private void btnAddOrder_Click(object sender, EventArgs e)
         {
             AnyMeal aMeal;
-
+            int X = Convert.ToInt32(txtXpos.Text);
+            int Y = Convert.ToInt32(txtYpos.Text);
+            
             if (rbPizza.Checked)
             {
                 //aShape = new AnyCircle("circle", X, Y, Width, Height, aColor);
                 //myModel.AddShape(aShape);
+                string aFlavor = "vegetable";
+                if (lblColor.BackColor == labelSeafood.BackColor)
+                {
+                    aFlavor = "seafood";
+                }
 
-                aMeal = new AnyPizza(true, 5.99,180);
+                aMeal = new AnyPizza(true, 5.99,180,X,Y, aFlavor);
                 myModel.AddMealOrder(aMeal);
 
             }
@@ -80,6 +89,14 @@ namespace mealsOrders1483998
 
         }
 
+        private void lblSelectColor_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void lblSelectFlavor_Click(object sender, EventArgs e)
+        {
+            lblColor.BackColor = (sender as Label).BackColor;
+        }
     }
 }

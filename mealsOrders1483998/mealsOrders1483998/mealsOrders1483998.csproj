@@ -90,6 +90,9 @@
     <EmbeddedResource Include="ViewForm1.resx">
       <DependentUpon>ViewForm1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm2.resx">
+      <DependentUpon>ViewForm2.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
