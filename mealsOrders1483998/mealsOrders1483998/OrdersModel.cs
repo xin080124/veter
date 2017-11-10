@@ -41,6 +41,12 @@ namespace mealsOrders1483998
             UpdateViews();
         }
 
+        public void DeleteOrder(int n)
+        {
+            orderList.RemoveAt(n);
+            UpdateViews();
+        }
+
         /// <summary>method: UpdateViews
 		/// refresh all views
 		/// </summary>

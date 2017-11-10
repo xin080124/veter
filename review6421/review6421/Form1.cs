@@ -19,7 +19,7 @@ namespace review6421
             InitializeComponent();
             float res = yxDivide("4", "0");
             Debug.WriteLine("forbidden");
-
+            int res1 = yxOpStr();
         }
 
         public float yxDivide(string figStr1, string figStr2)
@@ -46,6 +46,24 @@ namespace review6421
                 MessageBox.Show("Dividing 0 is nonsense.", "Error");
             }
             return res;
+        }
+
+        public int yxOpStr()
+        {
+            string longStr = "hehezzhahazzhoho";
+            string shortStr = "zz";
+            int len = shortStr.Length;
+            int cutPos = longStr.IndexOf(shortStr);
+            int count = 0;
+            while(cutPos>-1)
+            {
+                count++;
+                longStr = longStr.Substring(cutPos + len);
+                Debug.WriteLine(longStr);
+                cutPos = longStr.IndexOf(shortStr);
+            }
+
+            return count;
         }
     }
 }

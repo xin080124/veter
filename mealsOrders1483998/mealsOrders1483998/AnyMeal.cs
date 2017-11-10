@@ -10,6 +10,8 @@ namespace mealsOrders1483998
 {
     public abstract class AnyMeal
     {
+        protected string mealName;
+
         protected bool takeaway;
         protected double price;
         protected int time;
@@ -17,10 +19,13 @@ namespace mealsOrders1483998
         protected int x;
         protected int y;
 
-
+        // added for hittest and highlight
+        bool highlight;
+        
         // constructor
-        public AnyMeal(bool take_away, double meal_price, int due_time, int x_at, int y_at)
+        public AnyMeal(string name , bool take_away, double meal_price, int due_time, int x_at, int y_at)
         {
+            mealName = name;
             takeaway = take_away;
             price = meal_price;
             time = due_time;
@@ -29,7 +34,22 @@ namespace mealsOrders1483998
             y = y_at;
         }
 
+
+        
+
         public abstract void Display(Graphics g); // abstract method
+
+        public bool Highlight
+        {
+            get
+            {
+                return highlight;
+            }
+            set
+            {
+                highlight = value;
+            }
+        }
 
         public string Position()  //non abstract method
         {
@@ -46,6 +66,21 @@ namespace mealsOrders1483998
         {
             get;
             set;
+        }
+
+        public abstract string name //abstract property
+        {
+            get;
+            set;
+        }
+
+        // virtual method
+        public virtual bool HitTest(Point p)
+        {
+            Point pt = new Point(x, y);
+            Size size = new Size(100, 100);
+            //default behaviour
+            return new Rectangle(pt, size).Contains(p);
         }
 
 

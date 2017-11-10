@@ -41,10 +41,10 @@ namespace mealsOrders1483998
             myViewForm3 = new ViewForm3();
             myViewForm1.MyModel = theModel;
             myViewForm2.MyModel = theModel;
-            //myViewForm3.MyModel = theModel;
+            myViewForm3.MyModel = theModel;
             theController.AddView(myViewForm1);
             theController.AddView(myViewForm2);
-            //theController.AddView(myViewForm3);
+            theController.AddView(myViewForm3);
         }
 
         private void btnShowViews_Click(object sender, EventArgs e)
